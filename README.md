@@ -5,7 +5,8 @@ Ritika   -  See Contact, About, And other pages
 Sushant  -  Models, Routing, Views
 Deepak   -  Server Setup, Routing, Models, Routing
 
-Pending : 
+Pending :
+
 Backend  : Need to complete User Registration, Places Tables
 Frontend : Homepage formating, Profile page formating
 
