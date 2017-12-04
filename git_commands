@@ -101,7 +101,7 @@ $ git rebase new_branch 			// This will update master branch with the changes ma
 
 
 ===============================>>>>>>>>>>>>>>>> SSH access to github
-
+we will not use this
 $ ssh-keygen        // generates public-private key pair
 $ ssh -T git@github.com
 
@@ -109,7 +109,6 @@ $ ssh -T git@github.com
 
 
 ===============================>>>>>>>>>>>>>>>> switching to different versions of a file
-we will not use this
 
 $ git log 										// shows log history
 $ git checkout <8 bit hash> file_name   			// this restore the prev version(with hash 8bit 
