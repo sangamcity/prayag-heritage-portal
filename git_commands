@@ -1,0 +1,141 @@
+
+=================================================================
+
+git config --global user.name "username"
+git config --global user.email user_email_address
+// one time setup for accessing git in terminal
+
+
+
+1. git init           
+// starts a git repository in local machine
+// the above command generates some dirs in current dir like .git .info and all
+   
+
+2. git status          
+// this give the info of all the data in the current dir which are ready to be added to   
+// local repository we just created
+
+
+3. git add file_name/dirname				
+// This command will add all the files to the index which are in the directory but not updated in the index 
+// yet   
+										
+
+3.1 git add - A      							
+// to add all in current dir
+
+
+
+4. git commit -a -m "mesage while commiting"   	 (-a is used for multiple commits together)				
+// this copies the changes made in local repository to the remote repository
+
+
+5. git remote add origin <link of your central repository>   
+// this adds the remote repository as the origin master
+
+
+6.  git pull origin master(its a remote name)     								
+// this copies all from remoote to local machine repository
+
+
+7.  git push remote -force      						
+// forces pushing operation
+
+
+
+===============================>>>>>>>>>>>>>>>> Branching
+
+$ git branch
+// shows all the branches in repository 
+
+$ git checkout -b new_branch_name
+// to make a new branch
+
+// now all commands are same for this new branch too
+// except one to push i.e below -  
+// git push origine branch_name (push to new branch branch_name) 
+// git push origine master (push to origine branch
+
+
+
+(anywhere)
+$ git branch new_branch     	// makes a branch new_branch with already existing content same as 
+						        // master branch
+(anywhere)
+$ git checkout new_branch 	    // switch to new branch
+
+(inside master)
+$ git merge new_branch 			// merges new_branch into master branch 
+
+(inside master)
+$ git pull 						// fetch+merge (fetchs all files from central repo and merge it with local 
+
+(master branch)
+$ git fetch 					// fetch 	(fetchs all files from central repo to a local non master 
+									branch branch)
+
+
+(inside new_branch)
+$ git push origin new_branch 	// 	push local new_branch into the central repo(new_branch is 
+								// created in central repo if its not there, yet)
+
+(inside master)
+$ git push origin master 		// 	push master branch into the central master
+
+
+
+
+===============================>>>>>>>>>>>>>>>>Rebasing(updating branches locally)
+
+Rebasing ___ same work as merge but differently
+rebasing adds nw branch at masters head
+
+
+(inside new_branch)
+$ git rebase master 				// This will update new_branch with the changes made in master branch
+
+(inside master)
+$ git rebase new_branch 			// This will update master branch with the changes made in new_branch
+
+
+
+===============================>>>>>>>>>>>>>>>> SSH access to github
+
+$ ssh-keygen        // generates public-private key pair
+$ ssh -T git@github.com
+
+
+
+
+===============================>>>>>>>>>>>>>>>> switching to different versions of a file
+we will not use this
+
+$ git log 										// shows log history
+$ git checkout <8 bit hash> file_name   			// this restore the prev version(with hash 8bit 
+													hash passed) of ths file_name file
+
+
+
+
+
+===============================>>>>>>>>>>>>>>>> Tips :
+
+# origin is master branch 
+# each user has their own branches where they update their changes
+# origin can be merged with the user changes
+
+
+
+=============================
+
+changing origin master / changing repository
+
+1. git remote set-url origin new_repository_url
+
+now all push pull will be for new repository
+
+
+
+
+
