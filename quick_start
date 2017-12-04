@@ -16,6 +16,10 @@ $ git checkout yourname_(backend/frontend)   // this will bring you in your own 
 
 $ Now you are in your seperate branch, do your dirty tasks here, and then merge them with master by following way
 
+$ don't forget to activate your virtual environment.. Download all requirements using # pip install pack_name
+
+$ Runserver and complete your tasks :::))))
+
 $ git rebase master                     // This will update you with master(main) branch
 
 $ git push origin your_branch_name      // this will push the work from your local branch to your central branch
