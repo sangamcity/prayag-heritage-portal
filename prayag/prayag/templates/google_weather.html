@@ -1,0 +1,33 @@
+{% load staticfiles %}
+
+<!doctype html>
+<html>
+  <head>
+    <title>Google Weather API Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+    <!-- <script src="./script.js"></script> -->
+  </head>
+  <body background = "{% static 'assets/img/google_weather.jpg' %}">
+    <input type="text" id="query" placeholder="Search for something...">
+    <button id="search">Search</button>
+
+    <p><a href="" id ="url" target="_blank">Click for result!</a></p>
+
+  </body>
+</html>
+
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+  $("#search").click(function() {
+    var searchReq = $.get("/sendWeatherRequest/" + $("#query").val());
+    searchReq.done(function(data) {
+      $("#url").attr("href", data.result);
+    });
+  });
+
+});  
+
+</script>
