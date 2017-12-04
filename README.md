@@ -1,4 +1,3 @@
-What is the repository about?
 Guys here goes our real prayag project :)
 
 Requirements?
