@@ -1,3 +1,5 @@
+Must read quick_start______ after this
+
 Whats going on??
 
 Suraj    -  See Profile pages, Home page 
@@ -6,7 +8,7 @@ Ritika   -  See Contact, About, And other pages
 
 Sushant  -  Models, Routing, Views
 
-Deepak   -  Server Setup, Routing, Models, Routing
+Deepak   -  Server Setup, Routing, Models, Views
 
 Pending :
 

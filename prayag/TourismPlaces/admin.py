@@ -16,10 +16,10 @@ class TourismPlaceModelAdmin(admin.ModelAdmin):
 admin.site.register(TourismPlace, TourismPlaceModelAdmin)
  
 
-from .models import Image
+# from .models import Image
 
 class ImageModelAdmin(admin.ModelAdmin):
- 	list_display = ["image"]
+ 	list_display = ["name"]
 # 	list_display_link = ["user"]
 # 	list_editables = ["url"]
 # 	# list_filter = ["location","job_title"]

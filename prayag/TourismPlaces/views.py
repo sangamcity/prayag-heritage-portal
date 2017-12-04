@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from TourismPlaces.models import TourismPlace, Image
+from TourismPlaces.models import TourismPlace
 
 import requests
 
@@ -12,8 +12,8 @@ details_url = "https://maps.googleapis.com/maps/api/place/details/json"
 
 def home(request):
 	tourism_places = TourismPlace.objects.all()
-	images = Image.objects.all()[0]
-	return render(request, 'index.html', {'tourism_places':tourism_places, 'images':images})
+	#images = Image.objects.all()
+	return render(request, 'index.html', {'tourism_places':tourism_places})
  
 def blogList(request):
 	return render(request, 'blog-list.html', {})

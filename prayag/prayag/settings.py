@@ -158,7 +158,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = PROJECT_DIR.child('prayag','static_root')
-# static_root is the server outside our project wher e static files are sent to store
+# static_root is the server outside our prayagroject wher e static files are sent to store
 
 STATICFILES_DIRS = (
     PROJECT_DIR.child('static'),
