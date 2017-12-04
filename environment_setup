@@ -1,0 +1,93 @@
+
+
+
+==================>>>>>>>>>>>>>>> Making a virtual environment
+
+#open terminal :))			
+
+1. pip install virtualenv     # first install virtualenv
+
+2. mkdir venvs                # venvs is a seperate folder(anywhere you want) for all your virtualenvs
+
+
+==================>>>>>>>>>>>>>>> Activating virtual environment
+
+1. cd virtualenv
+
+2. virtualenv xyz			  # xyz=any_name_u_want_for_venv
+
+3. cd xyz/bin                 # go inside newly made venv and again go in bin
+
+4. activate                   # there is a executable script named activate, 
+							  # which will activate the xyz(or whatever venv you are inside) 
+							  # virtual environment
+
+5. (xyz) your_name@ubuntu$ 	  # Its how your terminal look now, and it means you inside a venv named xyz 
+
+6. deactivate				  # run this command anywhere and it will deactivate a venv if its activated :)
+
+
+
+
+==================>>>>>>>>>>>>>>> see whats installed or onstall new modules in venv
+
+A virtual environment isolates your venv dependencies from your system libraries and other dependencies.
+
+5. (xyz) your_name@ubuntu$ 	  # If your terminal looklike this, it means you inside a venv named xyz 
+
+6. pip freez                  # this lists all the libraries or modules in venv you are inside 
+
+7. pip install package_name   # will install package_name in your current virtual environment
+8. easy_install package_name  # easy_instal is an alternative for pip(python package index)
+
+
+
+
+==================>>>>>>>>>>>>>>> Starting a django project
+
+Now starting a django project 
+
+1. mkdir django_projetcs      			    		# django_projects is the directory where all your django 
+										    		# projects available
+
+2. cd django_projetcs 		  
+
+3. django-admin startproject project_name           # this will make a new djang project named django_project 
+										    		# django-admin is a django command for which django should 
+										    		# be installed in your current virtual environment
+										    		# this command will make a project hierarchy in present dir
+
+4. cd project_name/project_name 					# will land you in xyz/project_name/project_name
+													# where you will find manage.py 
+
+5. python manage.py runserver						# starts a local development server on 127.0.0.1:8000
+													# now open 127.0.0.1:8000 in browser to see running website
+
+6. python manage.py migrate 						# this makes database updates if you change 
+
+
+some more which you will see when required :)
+
+
+
+==================>>>> other tips
+
+
+# to stop server use ctrl+c not ctrl+z
+  ctrl+z send thsi in background but we dont want that so do ctrl+c to completely stop the server
+
+
+# virtualenv xyz
+  make xyz virtualenv using default python on your system(python2.7 most probably)
+  use option --python==3.5 to make env using python3.X versions
+  virtualenv --python=`which pythonx`  (make xyz using python versionx, change x to your desired version) 
+
+
+see versions
+# pip --version
+# virtualenv --version  
+
+
+
+
+==============>>>> Prepared by _Deepak Bharti
