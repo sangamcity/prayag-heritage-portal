@@ -8,7 +8,7 @@ Ritika   -  See Contact, About, And other pages
 
 Sushant  -  Models, Routing, Views
 
-Deepak   -  Server Setup, Routing, Models, Routing
+Deepak   -  Server Setup, Routing, Models, Views
 
 Pending :
 
