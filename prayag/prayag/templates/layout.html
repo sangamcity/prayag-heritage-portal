@@ -3,20 +3,39 @@
 <!doctype html>
 <html>
   <head>
-    <title>Google API Example</title>
+    <title>Map</title>
+    <link rel="stylesheet" href="{% static 'assets/css/animations.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}"      rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
     <!-- <script src="./script.js"></script> -->
   </head>
-  <body background = "{% static 'assets/img/google_map.jpg' %}">
-    <input type="text" id="query" placeholder="Search for something...">
+  <body background = "{% static 'assets/img/map_back.png' %}">
+  <div class = "up" style = "padding-left : 10px">
+    <iframe width="650" height="350" src="https://www.youtube.com/embed/uGBXSo6DUgU?autoplay=1" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class = "below" style = "padding-top : 20px">
+    <input style = "width : 570px " type="text" id="query" placeholder="Search for something...">
     <button id="search">Search</button>
+  </div>  
+  <div class="animatedParent" data-sequence="1000'">
 
-    <p><a href="" id ="url" target="_blank">Click for result!</a></p>
+    <h2 style = "color : red" class="animated bounceIn" data-id="1"><i>Search Your Favourite Places in <b style = "color : green">Allahabad</b> here!!</i></h2>
 
+    <h2 style = "color : red" class="animated bounceInDown" data-id="2"><i>Search Your Favourite Places in <b style = "color : green">Allahabad</b> here!!</i></h2>
+
+  </div>
+ <frameset rows="25%,*,25%" style = "right : 0px">
+ ERROR CHECK
+  <frame src="./frame.html" >
+  <frame src="./frame.html" >
+  <frame src="./frame.html" >
+ </frameset>
   </body>
 </html>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+  <script src='js/css3-animate-it.js'></script>
 <script type="text/javascript">
 
 $(document).ready(function() {
@@ -24,7 +43,7 @@ $(document).ready(function() {
   $("#search").click(function() {
     var searchReq = $.get("/sendRequest/" + $("#query").val());
     searchReq.done(function(data) {
-      $("#url").attr("href", data.result);
+      window.location.href = data.result
     });
   });
 

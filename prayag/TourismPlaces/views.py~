@@ -1,0 +1,57 @@
+from django.shortcuts import render
+
+from django.shortcuts import render
+
+from django.http import JsonResponse
+
+import requests
+
+search_url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
+details_url = "https://maps.googleapis.com/maps/api/place/details/json"
+
+# Create your views here.
+
+def home(request):
+	return render(request, 'index.html', {})
+ 
+def blogList(request):
+	return render(request, 'blog-list.html', {})
+
+def indexPage(request):
+	return render(request, 'index.html', {})	
+
+def featuresTypoBlockquotes(request):
+	return render(request, 'features-typo-blockquotes.html', {})	
+
+def featuresTypoBasic(request):
+	return render(request, 'features-typo-basic.html', {})		
+
+def featuresLabels(request):
+	return render(request, 'features-labels.html', {})
+		
+def featuresProgessBars(request):
+	return render(request, 'features-progress-bars.html', {})
+
+def layout(request):
+	return render(request, "layout.html", {}) # empty dictionary
+
+def results(request, query):
+	print (query)
+	key = 'AIzaSyAJWFjIVM-voIy9yQw_3mGe50lJJsJyjP8'
+	search_payload = {"key":key, "query":query}
+	# search_temp = requests.post("https://github.com/timeline.json")
+	print (search_payload)
+	search_req = requests.get(search_url, params=search_payload)
+	print ("sushant")
+	search_json = search_req.json()
+	print ("sushant")
+	print(search_json)
+	place_id = search_json["results"][0]["place_id"]
+
+	details_payload = {"key":key, "placeid":place_id}
+	details_resp = requests.get(details_url, params=details_payload)
+	details_json = details_resp.json()
+
+	url = details_json["result"]["url"]
+	return JsonResponse({'result' : url})
+

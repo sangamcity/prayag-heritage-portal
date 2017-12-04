@@ -1,23 +1,25 @@
 from django.shortcuts import render
- 
-
 from django.http import JsonResponse
+from TourismPlaces.models import TourismPlace, Image
 
 import requests
 
+temp_f = ""
 search_url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
 details_url = "https://maps.googleapis.com/maps/api/place/details/json"
 
 # Create your views here.
 
 def home(request):
-	return render(request, 'index.html', {})
+	tourism_places = TourismPlace.objects.all()
+	images = Image.objects.all()[0]
+	return render(request, 'index.html', {'tourism_places':tourism_places, 'images':images})
  
 def blogList(request):
 	return render(request, 'blog-list.html', {})
-
-def indexPage(request):
-	return render(request, 'index.html', {})	
+	
+def frame(request):
+ 	return render(request, 'frame.html', {})
 
 def featuresTypoBlockquotes(request):
 	return render(request, 'features-typo-blockquotes.html', {})	
@@ -56,15 +58,20 @@ def results(request, query):
 
 def weather_layout(request):
 	return render(request, "google_weather.html", {}) # empty dictionary
-
+def temp_display(request):
+	global temp_f
+	return render(request, "temp_display.html", {'temp' : temp_f})
 def weather_results(request, query):
 	print (query)
-	key = 'AIzaSyAJWFjIVM-voIy9yQw_3mGe50lJJsJyjP8'
-	r = requests.get('http://api.openweathermap.org/data/2.5/weather?zip='+query+',us&appid=AIzaSyAJWFjIVM-voIy9yQw_3mGe50lJJsJyjP8')
+	key = 'dcdff188d0ebcd4c1ecee4fa0a6be769'
+	r = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+query+',in&appid='+key+'')
 	json_object = r.json()
+	print(json_object)
 	temp_k = float(json_object['main']['temp'])
+	global temp_f
 	temp_f = (temp_k - 273.15) * 1.8 + 32
-	return render_template('temp_display.html', temp=temp_f)
+	url = "http://127.0.0.1:8000/temp_display"
+	return JsonResponse({'result' : url})
 
 	
 

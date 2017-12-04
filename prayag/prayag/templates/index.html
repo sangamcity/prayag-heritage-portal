@@ -29,9 +29,11 @@
         loopDelay:1200  
         });
     </script>-->
-    <div style="background-color: #8B0000; color: #000000; height: 60px;
+      <!-- start end-->
+     
+   <!-- <div style="background-color: #8B0000; color: #000000; height: 60px;
     " >
-        <center>
+       <center>
         <marquee style= "padding-top : 12px ;"" loop="-1"><h2 id = "welcometext"><center style = "color : #FFFFFF
         "><bold>Welcome to Allahabad Tourism</bold>
         </center></h2>
@@ -44,7 +46,7 @@
    <p style="position: absolute; top: 20px; left: 200px; font-family: 'Playfair Display', serif; color:  #8B0000; font-size: 400%; ">Allahabad Tourism</p>
    <p style="position: absolute; top: 80px; left: 300px; font-family: 'Playfair Display', serif; color:     #8B0000; font-size: 200%; ">Government of India</p>
    <img src="{% static 'assets/img/ald_pics/incr_india.png' %}" style="position : absolute; top: 0px; left: 1100px; height: 120px;">
-  </div>
+  </div>-->
   <div id="body-bg">
             <ul class="social-icons pull-right hidden-xs">
                 <li class="social-rss">
@@ -64,12 +66,12 @@
             </div>
             <div id="header">
                 <div class="container">
-                    <div class="row">
+                    <div class = "row">
                         <!-- Logo -->
-                        <div class="logo">
-                            <a href="{% url 'home' %}" title="">
-                                <img src="{% static 'assets/img/logo.png' %}" alt="Logo" />
-                            </a>
+
+                        <div class="logo" style = "padding-top : 10px">
+                                <img src="{% static 'assets/img/logo3.png' %}" alt="Logo" />
+                            
                         </div>
                         <!-- End Logo -->
                     </div>
@@ -78,7 +80,7 @@
             <!-- Top Menu -->
             {% include 'navbar.html' %}
             <!-- End Top Menu -->
-            <div id="post_header" class="container" style="height:340px">
+            <div id="post_header" class="container" style="height:200px">
             </div>
             <div id="content-top-border" class="container">
             </div>
@@ -98,7 +100,7 @@
                             <div class="clearfix"></div>
                             <!-- End Carousel Indicators -->
                             <!-- Carousel Images -->
-                            <div style = "height : 500px;" class="carousel-inner">
+                            <div style = "height : 360px;" class="carousel-inner">
                                 <div class="item active">
                                     <img style = "height : 500px; " src="{% static 'assets/img/slideshow/1.jpg' %}">
                                 </div>
@@ -160,12 +162,9 @@
                     <div class="row margin-vert-30">
                         <!-- Main Text -->
                         <div class="col-md-12">
-                            <h2 class="text-center">Welcome to LifeStyle</h2>
-                            <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-                                lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                            <p class="text-center">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit
-                                augue duis dolore te feugait nulla facilisi. Cras non sem sem, at eleifend mi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Curabitur eget nisl
-                                a risus.</p>
+                            <h2 class="text-center">Welcome to Allahabad</h2>
+                            <p class="text-center">Allahabad is one of the oldest cities in India. It is crowned in ancient scriptures as ‘Prayag’, ‘Prayagraj’ or ‘Teertharaj’ and is considered the holiest of pilgrimage centres of India. It is situated at the confluence of three rivers- Ganga, Yamuna and the invisible Saraswati. The meeting point is known as Triveni and is very sacred to Hindus. The Kumbh held in every six years and Mahakumbh in every 12 years at Allahabad (Sangam) are the largest gatherings of pilgrims on this earth.</p>
+                            <p class="text-center">Historically, the city has been a witness to many important events in India's freedom struggle such as emergence of the first Indian National Congress in 1885, the beginning of Mahatma Gandhi's non-violence movement in 1920.</p>
                         </div>
                         <!-- End Main Text -->
                     </div>
@@ -178,83 +177,21 @@
                             <!-- Portfolio -->
                             <ul class="portfolio-group">
                                 <!-- Portfolio Item -->
+
+                                {% for tourism_place in tourism_places %}
                                 <li class="portfolio-item col-sm-6 col-xs-6 padding-20">
                                     <a href="#">
                                         <figure class="animate fadeInLeft">
-                                            <img alt="image1" src="{% static 'assets/img/frontpage/image1.jpg' %}">
+                                            <img alt="image1" src="{{tourism_place.image.name}}">
                                             <figcaption>
-                                                <h3>Placerat facer possim</h3>
-                                                <span>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui et everti tamquam suavitate mea.</span>
+                                                <h3>{{tourism_place.name}}</h3>
+                                                <span>{{tourism_place.description}}</span>
                                             </figcaption>
                                         </figure>
                                     </a>
                                 </li>
-                                <!-- //Portfolio Item// -->
-                                <!-- Portfolio Item -->
-                                <li class="portfolio-item col-sm-6 col-xs-6 padding-20">
-                                    <a href="#">
-                                        <figure class="animate fadeInRight">
-                                            <img alt="image2" src="{% static 'assets/img/frontpage/image2.jpg' %}">
-                                            <figcaption>
-                                                <h3>Placerat facer possim</h3>
-                                                <span>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui et everti tamquam suavitate mea.</span>
-                                            </figcaption>
-                                        </figure>
-                                    </a>
-                                </li>
-                                <!-- //Portfolio Item// -->
-                                <!-- Portfolio Item -->
-                                <li class="portfolio-item col-sm-6 col-xs-6 padding-20">
-                                    <a href="#">
-                                        <figure class="animate fadeInLeft">
-                                            <img alt="image3" src="{% static 'assets/img/frontpage/image3.jpg' %}">
-                                            <figcaption>
-                                                <h3>Placerat facer possim</h3>
-                                                <span>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui et everti tamquam suavitate mea.</span>
-                                            </figcaption>
-                                        </figure>
-                                    </a>
-                                </li>
-                                <!-- //Portfolio Item// -->
-                                <!-- Portfolio Item -->
-                                <li class="portfolio-item col-sm-6 col-xs-6 padding-20">
-                                    <a href="#">
-                                        <figure class="animate fadeInRight">
-                                            <img alt="image4" src="{% static 'assets/img/frontpage/image4.jpg' %}">
-                                            <figcaption>
-                                                <h3>Placerat facer possim</h3>
-                                                <span>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui et everti tamquam suavitate mea.</span>
-                                            </figcaption>
-                                        </figure>
-                                    </a>
-                                </li>
-                                <!-- //Portfolio Item// -->
-                                <!-- Portfolio Item -->
-                                <li class="portfolio-item col-sm-6 col-xs-6 padding-20">
-                                    <a href="#">
-                                        <figure class="animate fadeInLeft">
-                                            <img alt="image" src="{% static 'assets/img/frontpage/image5.jpg' %}">
-                                            <figcaption>
-                                                <h3>Placerat facer possim</h3>
-                                                <span>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui et everti tamquam suavitate mea.</span>
-                                            </figcaption>
-                                        </figure>
-                                    </a>
-                                </li>
-                                <!-- //Portfolio Item// -->
-                                <!-- Portfolio Item -->
-                                <li class="portfolio-item col-sm-6 col-xs-6 padding-20">
-                                    <a href="#">
-                                        <figure class="animate fadeInRight">
-                                            <img alt="image6" src="{% static 'assets/img/frontpage/image6.jpg' %}">
-                                            <figcaption>
-                                                <h3>Placerat facer possim</h3>
-                                                <span>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui et everti tamquam suavitate mea.</span>
-                                            </figcaption>
-                                        </figure>
-                                    </a>
-                                </li>
-                                <!-- //Portfolio Item// -->
+                                {% endfor %}
+                             <!-- //Portfolio Item// -->
                             </ul>
                             <!-- End Portfolio -->
                         </div>
