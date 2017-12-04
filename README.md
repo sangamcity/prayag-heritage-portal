@@ -1,13 +1,17 @@
 Whats going on??
 
 Suraj    -  See Profile pages, Home page 
+
 Ritika   -  See Contact, About, And other pages  
+
 Sushant  -  Models, Routing, Views
+
 Deepak   -  Server Setup, Routing, Models, Routing
 
 Pending :
 
 Backend  : Need to complete User Registration, Places Tables
+
 Frontend : Homepage formating, Profile page formating
 
 Deadline : 5th Eve ):
