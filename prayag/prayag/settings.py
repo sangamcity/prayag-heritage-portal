@@ -21,20 +21,13 @@ ALLOWED_HOSTS = []
      
   
 ADMINS = ( 
-    ('deepak','deepakbharti823@gmail.com'),
-    ('sushant','sushant@gmail.com'),
-    ('Suraj','deepakbharti823@gmail.com'),
-    ('ritika','ritika@gmail.com'),
-    ('vikas','vika@gmail.com'),
-    ('samyak','samyak@gmail.com'),    
+    ('your_name','your_email'),    
     )
         
  
 EMAIL_USE_TLS = True  
 EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_HOST_USER = 'deepakbharti823@gmail.com'
 EMAIL_HOST_USER='email@gmail.com'
-# EMAIL_HOST_PASSWORD = 'zwmdutnsiyyhskge'
 EMAIL_HOST_PASSWORD = 'password'
 EMAIL_PORT = 587
 
@@ -116,9 +109,9 @@ DATABASES = {
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'hohos_database',
-#         'USER': 'root',
-#         'PASSWORD': 'kali@161ss',
+#         'NAME': 'dbname',
+#         'USER': 'user_name',
+#         'PASSWORD': 'password',
 #         'HOST': '139.59.69.62',
 #         'PORT': '',
 #     }
