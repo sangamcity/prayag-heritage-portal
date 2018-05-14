@@ -1,0 +1,92 @@
+{% load i18n %}
+
+
+<!-- === BEGIN FOOTER === -->
+            <div id="content" class="container">
+            </div>
+            <div id="base">
+                <div class="container padding-vert-30 margin-top-60">
+                    <div class="row">
+                        <!-- Contact Details -->
+                        <div class="col-md-4 margin-bottom-20">
+                            <h3 class="margin-bottom-10">{% trans 'Contact Details' %}</h3>
+                            <p>
+                                <span class="fa-phone">{% trans 'Mobile No:' %}</span>+91-7905915393
+                                <br>
+                                <span class="fa-envelope">{% trans 'Email:' %}</span>
+                                <a href="mailto:info@joomla51.com">prayagheritageportal@gmail.com</a>
+                                <br>
+                            </p>
+                            <p>Prayag, Uttar Pradesh
+                                <br>(INDIA) 
+                                <br>Pin No-211004
+                                </p>
+<li style="list-style: none">
+        <div id="language-select">
+            <form action="{% url 'i18n:set_language' %}" method="post">
+                {% csrf_token %}
+                <input name="next" type="hidden" value="{{ redirect_to }}" />
+                <select name="language" style="background-color: black; width: 70px;">
+                {% get_language_info_list for LANGUAGES as languages %}
+                {% for language in languages %}
+                <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected="selected"{% endif %}>
+                    {{ language.name_local }}
+                </option>
+                {% endfor %}
+                </select>
+                <input type="submit" value="{% trans 'Switch language' %}" />
+            </form>
+        </div>
+</li>
+
+
+                        </div>   
+                        <!-- End Contact Details -->
+                        <!-- Sample Menu -->
+                        <div class="col-md-3 margin-bottom-20">
+                            <h3 class="margin-bottom-10">{% trans 'Important Links' %}</h3>
+                            <ul class="menu">
+                                <li>
+                                    <a class="fa-home" href="{% url 'home' %}">{% trans 'Home' %}</a>
+                                </li>
+                                <li>
+                                    <a class="fa-picture-o" href="{% url 'views_360' %}">{% trans '360 Views' %}</a>
+                                </li>
+                                <li>
+                                    <a class="fa-picture-o" href="{% url 'img_show_all' %}">{% trans 'Images' %}</a>
+                                </li>
+                                <li>
+                                    <a class="fa-video-camera" href="{% url 'video_show_all' %}">{% trans 'Videos' %}</a>
+                                </li>
+
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- End Sample Menu -->
+                        <div class="col-md-1"></div>
+                        <!-- Disclaimer -->
+                        <div class="col-md-3 margin-bottom-20 padding-vert-30 text-center">
+                            <h3 class="color-gray margin-bottom-10">{% trans 'Tell us about your experience' %}</h3><br>
+                            <p>
+                                {% trans 'Visit places and share your valuable feedback about them!' %}
+                            </p>
+                            <a href="{% url 'feedback' %}"> <button class="btn btn-primary btn-lg margin-top-20" type="button">{% trans 'Feedback' %}</button></a>
+                        </div>
+                        <!-- End Disclaimer -->
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Menu -->
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div id="copyright" class="col-md-12">
+                            <p class="text-center white" style="background-color:black;">(c) 2017 Your Copyright Info</p>
+                            <p class="text-center gray" style="background-color: black;"><strong>{% trans 'Disclaimer :' %} </strong>{% trans 'The content provided in the website is true to the best of our knowledge. Any resemblance or contradiction regarding any content provided is not a matter of authority of the web team or other members involved in this portal.' %}<br>
+                            {% trans 'β version,under devleopment.' %}</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>

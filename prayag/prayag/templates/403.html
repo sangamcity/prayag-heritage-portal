@@ -1,0 +1,29 @@
+{% extends 'prayag/base.html' %}
+{% load staticfiles %}
+{% load i18n %}
+
+
+{% block title %}
+{% trans 'Permission denied - 403' %}
+{% endblock %}
+
+{% block extra_head %}
+  <style type="text/css">
+	.page-header { align:center; color:white; }
+	.page-header h1 {   }
+	.page-header p { align:center; font-size:25px; }
+	.page-header i { background-color:white; border-radius:50%;  }
+  </style>
+{% endblock extra_head %}
+
+
+
+{% block main_content %}
+  <div class="page-header" align="center">
+    <h1>{% trans "Permisions denied..." %} </h1>
+  <p style="margin-top: 1.2em">{% trans "Ooops! Something went wrong. Try again!" %}</p>
+  <i class="fa fa-frown-o fa-4x" style="color:white;"></i>
+  </div>
+
+{% endblock main_content %}
+

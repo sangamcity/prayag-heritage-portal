@@ -1,0 +1,213 @@
+{% extends "prayag/base.html" %}
+{% load i18n %}
+{% load staticfiles %}
+
+{% block extra_head %}
+<style type="text/css">
+.current_place{
+ position:fixed;
+ bottom:0;
+ right:0;
+ font-size: 20px;
+}
+</style>
+{% endblock extra_head %}
+
+
+
+{% block main_content %} 
+
+{% block extra_navbar %}
+{% endblock extra_navbar %}
+
+<div id="content">
+
+  <div class="container row" style="">
+    <div class="col col-md-6 col-md-offset-3">
+      {% if messages %}
+      {% for message in messages %}
+      <div class="alert alert-success alert-dismissable">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        {% trans message %} 
+      </div>
+      {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="background-white" style="background-color:#D4D4D7;">
+    <!--new editing-->   
+    <br><br>     
+    <div class="row">
+
+      <div class="col-md-12">
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="{{related_images.0.image.url}}" alt="" style="width:100%; max-height:400px;"/>
+              <div class="carousel-caption">
+                <h4 class="back-light">{{related_images.0.tourism_palce.description}}</h4>
+              </div>
+            </div>
+            {% for image in related_images %}
+            <div class="item">
+              <img src="{{image.image.url}}" alt="" style="width:100%; max-height:400px;"/>
+              <div class="carousel-caption ">
+                <h4 class="back-light">{% trans image.tourism_palce.description %}</h4>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example" data-slide-to="1"></li>
+            <li data-target="#carousel-example" data-slide-to="2"></li>
+          </ol>
+          <!-- Carousel Controls -->
+          <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" style="margin-right: 10px;"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example" data-slide="next" >
+            <span class="glyphicon glyphicon-chevron-right" style="margin-left: -15px;"></span>
+          </a>
+          <!-- End Carousel Controls -->
+        </div>
+      </div> 
+
+    </div>
+
+    <!--start sections-->
+    <section>
+      <div class="row text-center">
+        <div class="col-md-12 col-sm-12  icon-big" >
+          <h1> {% trans place.name %}</h1>
+          <p>
+            {% trans place.linkfy_post|safe|linebreaksbr %}      
+          </p> 
+        </div>
+      </div>
+    </section>
+    <!--END HOME SECTION-->
+    <!--start video from here-->
+
+    {% if place.video %}
+    <br><br><br>
+    <section style="width:100%;">
+      <div class="row text-center">
+        <div class="col-md-12 col-sm-12  icon-big" >
+          <iframe width="100%" max-height="550" src="{{place.video.video.url}}" frameborder="0" allowfullscreen></iframe>
+          <p>{% trans 'A Glimps of Triveni Sangam in Khubh Documentry , for more videos' %} <a href="{% url 'video_show' place.name %}">{% trans 'click here' %}</a></p>
+        </div>
+      </div>
+    </section><br>
+    {% endif %}
+
+    <!--add concerned people-->
+
+    <!--ABOUT SECTION-->
+    <br>
+    <!--END ABOUT SECTION-->
+
+
+    <!--start map and review-->
+    
+    <!--CONTACT SECTION-->
+    <div class="row text-center">
+
+      <div class="col-md-6 col-sm-6" style="margin-left: 20px; padding: 15px;">
+        <span id="latitude" hidden>{{place.latitude}}</span>
+        <span id="longitude" hidden>{{place.longitude}}</span>
+        <h3><b>Location on map</b></h3><br>
+        <div id="map" style="left:0px;height:300px; padding-right:20px;">
+          <script>
+            // var latitude = document.getElementById('latitude').innerHTML;
+            // var longitude = document.getElementById('longitude').innerHTML;
+            function initMap() {
+              var uluru = {lat: 25.4358, lng: 81.8463};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 10,
+                center: uluru
+              });
+            }
+            </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJMl73NP2dbgNjB6CbLHTRrzQH8stNhso&callback=initMap">
+            </script>
+          </div>
+        </div>
+
+        <table style="font-size: 20px; margin-top:10px; margin-bottom: -15px;">
+          <tr>
+            <th colspan="20" style="color:gray;" float="left"><span style="margin-left: 35px;">{% blocktrans with name=place.name %} See What People say about {{name}} {% endblocktrans %} <i class="fa fa-hand-o-down fa-1x"></i></span></th>
+          </tr>
+        </table>
+
+        <div class="col col-md-6 col-md-6 styles" style="max-height:300px; max-width: 450px; overflow:scroll; margin-top: 40px;">
+          <ul class="stream" style="background-color: white;">
+            <hr style="border-color:#008080;"> 
+            {% for review in all_reviews %}
+            {% include 'user_review_partial.html' with feed=review %}
+            {% endfor %}
+
+          </ul> 
+        </div> 
+
+      </div>
+
+      <div class="row" style="margin-top: 50px;">
+        <div class="col-md-6 col-md-offset-3 alert-success" style="">
+          <h4>{% trans 'Share Your Experience If you visited this place ...' %}' </h4>
+          <hr style="color: #08080">
+
+          <form method="post" action="{% url 'post_review' %}">
+            {% csrf_token %}
+            <input type="hidden" name="place_slug" value="{{place.slug}}">
+                <div class="form-group">
+                  <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Write your review" style="max-height: 100px; max-height:300px;"></textarea>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary">{% trans 'Submit Review' %}</button>
+                </div>
+          </form>
+        </div>
+      </div>
+
+    </div>  
+    <br>
+  </div>
+  <br><br>
+
+  <section  id="about">
+    <div class="row text-center">
+      <h2 style="color:white;"><strong>{% trans 'TAKE A MOMENT' %}</strong> </h2> 
+      <div class="text-center">
+        <div class="col-md-12 col-sm-12 ">
+          <h3 style="color:white;"><strong>{% trans page_quote %}</strong></h3><br>
+          <a href="{% url 'img_show' place.slug %}"><button  type="button" class="btn btn-violet">{% blocktrans with name=place.name %} View more images of {{name}} {% endblocktrans %}</button></a>
+          <a href="{% url 'video_show' place.slug %}"><button type="button" class="btn btn-violet">{% blocktrans with name=place.name %} View more Videos of {{name}} {% endblocktrans %}</button></a>  
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <span class="current_place" style="color: white; background-color:black">
+    {% blocktrans with name=place.name %} You are at {{name}}{% endblocktrans %}
+  </span>
+
+  {% endblock main_content %}
+
+
+
+  {% block extra_js %}
+
+  <script type="text/javascript">
+  new TypeIt('.current_place', { 
+    breakLines:false, 
+    speed: 150,
+    deleteDelay: 750, 
+    autoStart: false,
+    loop:true,
+    loopDelay:150, 
+  });
+  </script>
+  {% endblock extra_js %}

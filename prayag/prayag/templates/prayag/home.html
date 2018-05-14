@@ -1,0 +1,379 @@
+{% extends "prayag/base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block extra_head %}
+<style type="text/css">
+.welcome_text, .highlights {
+	font-family: FontAwesome;
+	margin-top: 3em;
+	font-size: 2em;
+	color: white;
+}
+.highlights {
+	margin-top: 50px;
+	font-size: 20px;
+	color: white;   
+}
+.red { color: red; }
+.green { color: green; }
+.white { color: white; }
+.yellow { color: yellow; }
+.space { margin: 25px; }
+.gray { color: gray; }
+
+.same_car_size{
+	min-height: 300px;
+	max-height: 300px; width:100%;
+	/*min-height: 450px;*/
+}
+.up_logo {
+	margin-top: 40px;
+	max-height:120px; max-width: 120px; 
+	min-height: 120px; min-width: 120px;
+}
+.yogi_pic {
+	max-height:150px; max-width: 150px; 
+	min-height: 150px; min-width: 150px;
+}
+.cm_detail {
+	color: white;
+}
+.cm_detail h4 {color: white;}
+</style>
+
+{% endblock extra_head %} <!-- this goes above navbar and logoline -->
+
+{% block extra_navbar %}
+
+<div class="row">
+	<div class="pull-left" style="margin:40px;">
+		<img class="up_logo" src="{% static 'img/upgov.png' %}" style="">
+	</div>
+	<div class="pull-right" style="margin:40px; width:150px;">
+		<img class="yogi_pic" src="{% static 'img/yogi.png' %}" style=""><br>
+		<span class="cm_detail"> <strong style="margin-bottom: 5px;">{% trans "SHRI YOGI ADITYANATH" %}</strong>
+		<small>{% trans "Hon'ble Chief Minister" %} <br>
+		Uttar Pradesh</small>
+		</span>
+	</div>
+
+</div>
+
+<div class="row" style="margin-top:-30px">
+	<div class="col col-md-12">
+		<span class="welcome_text center">
+			Don't Be A <span class="green">Tourist</span><br> Be A <span class="yellow">Traveller</span> <i class="fa fa-smile-o class fa-sm red"></i><br>
+			Come In <span style="color: green;">Allahabad</span><br>
+			| See The<span style="color: red;">Wonders</span>
+			And Get <span style="color: red;">Surprised  </span> 
+		</span>
+	</div>
+</div>
+
+{% endblock extra_navbar %}
+
+
+
+{% block main_content %}
+
+<br><br>
+
+<div class="col col-md-6 col-md-offset-3">
+      {% if messages %}
+        {% for message in messages %}
+          <div class="alert alert-success alert-dismissable center">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            {{ message }} 
+          </div>
+        {% endfor %}
+      {% endif %}
+</div>
+
+<!-- === BEGIN CONTENT === -->
+<div id="content">
+	<div class="row" >
+		<!-- Carousel Slideshow -->
+		<div id="carousel-example" class="carousel slide" data-ride="carousel">
+			<!-- Carousel Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example" data-slide-to="1"></li>
+				<li data-target="#carousel-example" data-slide-to="2"></li>
+			</ol>
+			<div class="clearfix"></div>
+			<!-- End Carousel Indicators -->
+			<!-- Carousel Images -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img class="img img-responsive same_car_size" src="{% static 'img/1.jpeg' %}">
+				</div>
+				<div class="item">
+					<img class="img img-responsive same_car_size" src="{% static 'img/22.jpg' %}">
+				</div>
+				<div class="item">
+					<img class="img img-responsive same_car_size" src="{% static 'img/33.jpg' %}">
+				</div>
+				<div class="item">
+					<img class="img img-responsive same_car_size" src="{% static 'img/11.jpg' %}">
+				</div>
+			</div>
+			<!-- End Carousel Images -->
+			<!-- Carousel Controls -->
+			<a class="left carousel-control" href="#carousel-example" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example" data-slide="next" >
+				<span class="glyphicon glyphicon-chevron-right" style="margin-left: -10px;"></span>
+			</a>
+			<!-- End Carousel Controls -->
+		</div>
+		<!-- End Carousel Slideshow -->
+	</div>
+
+
+	<div class="background-white">
+		<div class="row margin-vert-30">
+			<!-- Main Text -->
+			<div class="col-md-12">
+				<h2 class="text-center">{% trans "Welcome to Allahabad" %}</h2>
+				<p class="text-center">{% trans "Allahabad , is a large metropolitan city in the Indian state of Uttar Pradesh and the administrative headquarters of Allahabad District, the most populous district in the state and 13th most populous district in India and the Allahabad Division. The city is the judicial and political capital of Uttar Pradesh with Allahabad High Court being the highest judicial body in the state" %}</p>
+			</div>
+			<!-- End Main Text -->
+		</div>
+
+		<!--about allahabad section starts here-->
+
+		<div class="background-white">
+			<section  id="about">
+				<div class="row text-center"> 
+					<div class="text-center">
+						<div class="col-md-4 col-sm-4 ">
+							<h3><strong>{% trans "History" %}</strong> </h3>
+							<p>
+								{% trans "Allahabad also known by its original name Prayag is one of the largest cities of the North Indian state" %} 
+								<center><a href="{% url 'history' %}"><button  type="button" class="btn btn-violet btn-xs">Read more</button></a></center>
+							</p>
+
+						</div>
+
+						<div class="col-md-4 col-sm-4 ">
+							<h3><strong>{% trans "Key Facts" %}</strong> </h3>
+							<p>
+								{% trans "• Metropolis   1,117,094" %}<br>
+								{% trans "• Rank 36th" %}<br>
+								{% trans "• Density  16,000/km2 (41,000/sq mi)" %}<br>
+								<center><a href="{% url 'history' %}"><button  type="button" class="btn btn-violet btn-xs">{% trans "Read more" %}</button></a></center>
+							</p>
+
+						</div>
+						<div class="col-md-4 col-sm-4 ">
+							<h3><strong>{% trans "Geography" %}</strong> </h3>
+							<p>
+								{% trans "Geographically, Allahabad is located at 25.45°N 81.84°E in the southern part of the Uttar Pradesh." %}
+								<center><a href="{% url 'history' %}"><button  type="button" class="btn btn-violet btn-xs">{% trans "Read more" %}</button></a></center>
+							</p>                            
+
+						</div>
+					</div>  
+
+
+				</div>
+
+			</section><br>
+			<br>
+		</div>
+	</div>
+
+	<!--about allahabad section ends here-->
+
+	<!--Google map starts here-->
+	<!-- map and twitter starts-->
+
+
+	<br>
+	<div class="row">
+		<div class="center col-md-12">
+			<iframe width="100%" height="400px;"  position="absolute" src="https://www.youtube.com/embed/lcydflzpxBc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+		</div>
+	</div>
+	<br>
+	<div class="background-white">
+		<section  id="about">
+			<div class="row text-center"> 
+				<div class="text-center" >
+					<div class="col-md-6 col-sm-6 ">
+						<h2 class="text-center"> {% trans "Allahabad on Map" %}</h2>
+						<!--Google map starts here-->
+						<div id="map" style="left:0px;height:300px; padding-right:20px;">
+							<script>
+							function initMap() {
+								var uluru = {lat: 25.4358, lng: 81.8463};
+								var map = new google.maps.Map(document.getElementById('map'), {
+									zoom: 10,
+									center: uluru
+								});
+							}
+							</script>
+							<script async defer
+							src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJMl73NP2dbgNjB6CbLHTRrzQH8stNhso&callback=initMap">
+							</script>
+						</div>
+						<!--Google map starts here-->
+
+					</div>
+					<div class="col-md-6 col-sm-6 " style="overflow:scroll; height:400px;">
+						<!--twitter starts here -->
+
+						<a class="twitter-timeline" href="https://twitter.com/uptourismgov?ref_src=twsrc%5Etfw">{% trans "Tweets by uptourismgov" %}</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>									
+					</div> 
+				</div>  
+
+
+			</div>
+
+		</section><br>
+		<br>
+	</div>
+
+	<!--Google map ends here-->
+	<div class="background-gray-lighter"><br>
+		<h2 id="alld_attr" class="text-center"><strong>{% trans "Allahabad Attractions" %}</strong></h2>
+	</div>
+	<div class="background-gray-lighter">
+		<div class="row padding-vert-20">
+			<div class="col-md-1">
+			</div>
+			<div class="col-md-10">
+				<!-- Portfolio -->
+				<ul class="portfolio-group">
+					<!-- Portfolio Item -->
+					{% for tourism_place in tourism_places %}
+					<li class="portfolio-item col-md-6 col-sm-6 padding-20">
+						<a href="{% url 'place_detail' tourism_place.slug %}">
+							<figure class="animate fadeInLeft">
+								{% if tourism_place.image %}
+								<img alt="image1" class="img" 
+								src="{{tourism_place.image.image.url}}" style="img img-responsive">
+								{% endif %}
+								<figcaption>
+									<h3>{% trans tourism_place.name %}</h3>
+									<span>{% trans tourism_place.description|truncatechars:155 %}</span>
+								</figcaption>
+							</figure>
+						</a>
+					</li>
+					<!-- //Portfolio Item// -->
+					{% endfor %}
+				</ul>
+				<!-- End Portfolio -->
+			</div>
+			<div class="col-md-1">
+			</div>
+		</div>
+	</div>
+
+
+	<!--Important links section starts here -->
+	<!--Important links section starts here -->
+	<div class="background-gray-lighter">
+		<section  id="about">
+			<div class="row text-center"> 
+				<div id="carousel-example-2" class="carousel slide alternative" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-2" data-slide-to="1"></li>
+					</ol>
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="row">
+								<a href="http://up.gov.in/"><div class="col-md-3"><img src="{% static 'img/gov.png' %}" style="max-width:100%;"></div></a>
+								<a href="http://www.irctctourism.com/"><div class="col-md-3"><img src="{% static 'img/train.png' %}" style="max-width:100%;"></div></a>
+								<a href="http://www.lucknow.gov.in/"><div class="col-md-3"><img src="{% static 'img/lko.jpg' %}" style="max-width:100%;"></div></a>
+								<a href="http://www.ayodhya.gov.in/en/destination"><div class="col-md-3"><img src="{% static 'img/ayodha.jpg' %}" style="max-width:100%;"></div></a>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">
+								<a href="http://www.varanasi.gov.in/en/destination"><div class="col-md-3"><img src="{% static 'img/bhu.jpg' %}" style="max-width:100%;"></div></a>
+								<a href="http://www.chitrakoot.gov.in/en/destination"><div class="col-md-3"><img src="{% static 'img/chitra.jpg' %}" style="max-width:100%;"></div></a>
+								<a href="http://tajmahal.gov.in/"><div class="col-md-3"><img src="{% static 'img/taj.png' %}" style="max-width:100%;"></div></a>
+								<a href="http://tourism.gov.in/"><div class="col-md-3"><img src="{% static 'img/tour.png' %}" style="max-width:100%;"></div></a>
+							</div>
+						</div>
+					</div>
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-2" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-2" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+
+			</div>
+		</section><br>
+		<br>
+	</div>
+	<!--about Imp links section ends here-->
+	<br><br>
+	<section  id="about">
+		<div class="row text-center">
+			<h2><strong class="moment green">{% trans "TAKE A MOMENT" %}</strong> </h2> 
+			<div class="text-center">
+				<div class="col-md-12 col-sm-12 ">
+					<h3><strong class="moment_text white">{% trans page_quote %}</strong></h3><br>
+					<a href="{% url 'img_show_all' %}"><button  type="button" class="btn btn-violet">{% trans "View more images" %}</button></a>
+					<a href="{% url 'video_show_all' %}"><button type="button" class="btn btn-violet">{% trans "View more Videos" %}</button></a>  
+				</div>
+			</div>
+		</div>
+	</section>
+</div>*
+
+{% endblock main_content %} 
+
+{% block extra_js %}
+
+<script type="text/javascript">
+
+Tipped.create(".moment",'Take a Moment',{position : 'top'});
+new TypeIt('.moment_text', {
+	strings: 'This is a simple string.',
+	speed: 100,
+	loop:true,
+	autoStart: false,
+});
+
+
+new TypeIt('.welcome_text', { 
+	breakLines:false, 
+	speed: 100,
+	startDelay:2500,
+	nextStringDelay:1500,
+	deleteDelay: 750, 
+	autoStart: false,
+	loop:true,
+	loopDelay:2000, 
+});
+
+
+
+new TypeIt('.highlights', { 
+	breakLines:false, 
+	speed: 100,
+	deleteDelay: 750, 
+	autoStart: false,
+	loop:false,
+	loopDelay:1500, 
+});
+
+
+setTimeout(function(){
+   $('.welcome_text').show();// or fade, css display however you'd like.
+}, 7000);
+
+</script>
+{% endblock extra_js %}

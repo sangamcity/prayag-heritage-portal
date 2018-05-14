@@ -1,0 +1,228 @@
+/*
+ * A Design by GraphBerry
+ * Author: GraphBerry
+ * Author URL: http://graphberry.com
+ * License: http://graphberry.com/pages/license
+ */
+
+ /**RESET**/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/** Background image is set on html element **/
+html{
+	background: url(../images/bg-image.jpg);
+	margin: 0;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+/**** We put pattern mask in body ***/
+body{
+	margin:0;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAICAYAAAAx8TU7AAAAG0lEQVQIW2NkYGB4BsQogBGXYBo2lVgFqW0mAAMyBTnkxKBjAAAAAElFTkSuQmCC) repeat;
+	text-align: center;
+	text-transform: uppercase;
+	background-position: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	color: #fd3267;
+	font-size: 72px;
+	font-size: 5.9vw;
+	position: absolute;
+	top: 18%;
+	width: 100%;
+	text-align: center;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 27px;
+	font-size: 2vw;
+	margin: 0 auto;
+	color: #fff;
+	position: absolute;
+	top: 34%;
+	width: 100%;
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+	display: block;
+}
+
+a{
+	color: #fd3267;
+}
+
+.wrapper{
+	min-height: 500px;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top:5%;
+	text-align: center;
+	width: 100%;
+}
+
+ul.countdown {
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+ul.countdown li {
+	display: inline-block;
+	margin-right: 3%;
+	text-align: center;
+}
+
+ul.countdown li span {
+	font-size: 72px;
+	font-size: 5.8vw;
+	width: 150px;
+	letter-spacing: 5px;
+	font-weight: 300;
+	color: #fff;
+	
+
+}
+
+ul.countdown li p {
+	color: #fd3267;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+ul.countdown li:last-child {
+	margin-right: 0;
+}
+
+form{
+	text-align: center;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 66%;
+}
+
+form input[type="text"] {
+	width: 22%;
+	padding: 16px;
+	font-size: 0.85em;
+	color: #fff;
+	outline: none;
+	font-weight: 600;
+	background: none;
+	border: 1px solid#FFFFFF;
+	transition: border-color 0.5s;
+	-webkit-transition: border-color 0.5s;
+	-moz-transition: border-color 0.5s;
+	-o-transition: border-color 0.5s;
+	-ms-transition: border-color 0.5s;
+}
+
+form input[type="text"]:focus{
+	background: rgba(255,255,255, 0.3);
+}
+
+form input[type="submit"] {
+	font-family: 'Montserrat', sans-serif;
+	border: 1px solid#FD3267;
+	padding: 16px 16px;
+	font-size: 0.85em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	background: none;
+	color: #FD3267;
+	outline: none;
+	cursor: pointer;
+	margin-left: 15px;
+}
+
+form input[type="submit"]:hover {
+	border: 1px solid#F47797;
+	color: #F47797;
+}
+
+
+ul.social{
+	position: absolute;
+	width: 100%;
+	bottom: 50px;
+	text-align: center;
+}
+
+ul.social > li{
+	display: inline-block;
+}
+
+ul.social > li > a{
+	color: #fff;
+	
+}
+
+ul.social > li > a > i{
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	display:block;
+}
+
+ul.social > li > a:hover i{
+	border-radius: 100%;
+}
+
+ul.social > li > a:hover .icon-facebook{
+	background: #3b5998;
+}
+
+ul.social > li > a:hover .icon-twitter-1{
+	background: #00aced;
+}
+ul.social > li > a:hover .icon-behance{
+	background: #1769FF;
+}
+ul.social > li > a:hover .icon-pinterest-circled{
+	background: #CB2026;
+}
+ul.social > li > a:hover .icon-gplus-1{
+	background: #d34836;
+}
+
+ul.social > li > a:hover .icon-dribbble-1{
+	background: #EA4C89;
+}
+.copyright{
+	position: absolute;
+	text-align: center;
+	bottom: 10px;
+	width: 100%;
+	color: #fff;
+}
+
+@media screen and (max-width: 500px){
+
+	h2{
+		font-size: 3.5vw
+	}
+}

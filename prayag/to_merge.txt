@@ -1,0 +1,9 @@
+
+
+do this in suraj's project
+
+assets/css/tipped/tipped.css
+assets/js/tipped/tipped.js
+
+
+copy the whole home.html

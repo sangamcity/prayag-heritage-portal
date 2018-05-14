@@ -1,0 +1,86 @@
+{% extends "prayag/base.html" %}
+{% load i18n %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+{% block extra_head %}
+<style type="text/css">
+.color-red, .red {color: red;}
+.input-width { width: 60% }
+
+.welcome_text {
+  font-family: FontAwesome;
+  margin-top: 3em;
+  font-size: 2em;
+  color: white;
+}
+</style>
+{% endblock extra_head %}
+
+{% block main_content %}
+
+<div id="content">
+  <div class="background-white">
+      <!-- Register Box -->
+      <div class="col-md-6 col-md-offset-3 col-sm-offset-3">
+
+       {% if form.field_errors %}
+       {% for error in form.non_field_errors %}
+       <div class="alert alert-danger alert-dismissable" align="center">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        {% trans "Please enter a correct Contact no. and password." %}
+      </div>
+      {% endfor %} 
+      {% endif %}
+    <div align="center">
+      {% if error %}
+      <span class="red" style="background-color: white;">{% trans "Please enter a correct Contact no/Phone. and password(of length >=4)." %}</span>
+      {% endif %}
+      <form class="signup-page" method="post" action="{% url 'signup' %}">
+        {% csrf_token %}
+        <div class="signup-header">
+          <h2><strong>{% trans "Register a new account" %}</strong></h2>
+          <p>{% trans "Already a member? Click" %}
+            <a href="{% url 'login' %}"> {% trans "HERE" %}</a> {% trans "to login to your account." %}</p>
+          </div>
+          {{form|crispy}}
+            <span class="text-center">
+              <button class="btn btn-info btn-lg" type="submit">{% trans "Register" %}</button>
+            </span>
+          <br>
+      </form>
+    </div>
+    </div>
+    <!-- End Register Box -->
+  </div>
+</div>
+</div>
+
+<br><br>
+<section  id="about">
+  <div class="container">
+    <div class="row text-center">
+      <h2 style="color:Green;" class="moment"><strong>{% trans "Take a Moment" %}</strong> </h2> 
+      <div class="text-center">
+        <div class="col-md-12 col-sm-12 ">
+          <h3><strong class="moment_text" style="color: white;">{% trans 'IMMERSE YOURSELF IN SOME OF THE INSPIRING DESTINATIONS IN ALLAHABAD' %}</strong></h3><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>   
+
+{% endblock main_content %}
+
+
+{% block extra_js %}
+<script type="text/javascript">
+Tipped.create(".moment",'Take a Moment',{position : 'top'});
+new TypeIt('.moment_text', {
+  strings: 'This is a simple string.',
+  speed: 200,
+  loop:true,
+  autoStart: false,
+});
+</script>
+{% endblock extra_js %}

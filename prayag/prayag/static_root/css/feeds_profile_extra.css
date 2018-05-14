@@ -1,0 +1,120 @@
+
+
+.my {background-color:#008080;}
+.mytext{color:#008080;}
+.mytextwhite{color:white;}     
+ 
+ul.stream li div.feed-container:hover{  
+  cursor: pointer;
+  background-color: #f5f8fa;
+}  
+
+.center {    
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.like{ font-weight: bold; font-size:13px; color: gray; }
+.unlike { font-weight: bold; color: #008080; font-size:12px; }
+.post a { text-decoration: none; }  
+.post a:hover { color: #008080; }
+
+
+textarea[name="post"] { 
+/*  background: url('hohos.in/{{request.user.profile.get_picture}}') no-repeat 25px 25px #fcfcfc;
+*/ 
+/*background: url('http://hohos.in/{{request.user.profile.get_picture}}');
+*/}
+
+textarea[name="post"] {
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+/*    background-position: top;
+    background-attachment: fixed;*/
+
+}
+
+/*textarea {
+  overflow: auto;
+}*/
+/* searchusers */
+
+.typeahead, .tt-query, .tt-hint {
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-size: 1.2em;
+  height: 35px;
+  line-height: 35px;
+  outline: medium none;
+  padding: 4px 12px;
+  width: 150px;
+}
+.typeahead {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+.typeahead:focus {
+  border: 2px solid #0097CF;
+}
+.tt-query {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.tt-hint {
+  color: #999999;
+}
+
+.tt-dropdown-menu {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  padding: 8px 0;
+  width: 200px;
+}
+.tt-suggestion {
+  font-size: 1em;
+  line-height: 20px;
+  padding: 3px 20px;
+  color: #008080;
+}
+.tt-suggestion { cursor: pointer; }
+
+.tt-suggestion.tt-cursor {
+  background-color: #0097CF;
+  color: #FFFFFF;
+}
+.tt-suggestion p {
+  margin: 0;
+}
+
+input[name="to_user"] {
+    /*background: url("{% static 'img/search.png' %}") no-repeat 10px 6px #fcfcfc;*/
+/*    border: 1px solid #d1d1d1;
+    font: 14px Arial,Helvetica,Sans-serif ;
+    color: #bebebe;
+    width: 180px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;*/
+/*    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);*/
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+/*    background-color: #008080;*/
+    }
+
+
+input[name="to_user"]:focus {
+    width: 200px;
+    }
+
+li a.current:hover { background-color: green; }
+li a.other:hover { background-color: green; }

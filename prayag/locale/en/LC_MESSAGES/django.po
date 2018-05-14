@@ -1,0 +1,364 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-27 20:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: TourismPlaces/templates/allahabad/history_alld.html:12
+msgid "History"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:16
+msgid ""
+"The city was earlier known as Prayāga, a name still commonly used. Prayāga "
+"existed during the Vedic period, and is mentioned in the Veda as the "
+"location where Brahma (the Hindu creator of the universe) attended a ritual "
+"sacrifice. Excavations have revealed Northern Black Polished Ware dating to "
+"600–700 BCE.[15] The Puranas record that Yayati left Prayaga and conquered "
+"the region of Saptha Sindhu.[16] His five sons (Yadu, Druhyu, Puru, Anu and "
+"Turvashu) founded the main tribes of the Rigveda.[17] Lord Rama, the "
+"protagonist of the Ramayana, spent time at the Ashram of Sage Bharadwaj "
+"before travelling to nearby Chitrakoot."
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:18
+msgid ""
+"When the Aryans first settled in what they called the Āryāvarta (or "
+"Madhyadesha), Allahabad (then Kaushambi) was an important part of their "
+"territory. The Kurus, rulers of Hastinapur (near present-day Delhi), "
+"established the town of Kaushambi near Allahabad. They shifted their capital "
+"to Kaushambi when Hastinapur was destroyed by floods."
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:20
+msgid ""
+"The Doab region, which includes Allahabad, was controlled by a succession of "
+"empires and dynasties. The area became part of the Maurya and Gupta Empires "
+"from the east and the Kushan Empire from the west before being governed by "
+"Kannauj during the 15th century. The city was the site of Maratha incursions "
+"before India was colonised. Allahabad became a part of the Delhi Sultanate "
+"when it was annexed by Mohammad Ghori in 1193. Later, the Mughals took over "
+"from the slave rulers of Delhi and under them Allahabad rose to prominence. "
+"Allahabad was a provincial capital in the Moghul Empire under the reign of "
+"Jahangir. Padshah (emperor) Akbar the Great made it the seat of Illahabad "
+"Subah, one of his twelve original subahs (imperial top-level provinces), "
+"built a fort on the banks of the sangam and renamed the settlement Ilāhābād "
+"(Persian for \"place of a god\") in 1575. A unique artefact associated with "
+"Jahangir\\"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:22
+msgid ""
+"In 1765, forces of Mir Qasim, the Nawab of Bengal, Shuja-ud-Daula, the Nawab "
+"of Awadh and the Mughal emperor Shah Alam II lost the Battle of Buxar to the "
+"British; this was followed by the Treaty of Allahabad. Although the British "
+"did not yet establish direct rule, they saw Allahabad\\"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:25
+msgid ""
+"The 1888 session of the Indian National Congress was held in the city, and "
+"by the turn of the 20th century Allahabad was a revolutionary centre. "
+"Nityanand Chatterji became a household name when he hurled a bomb at a "
+"European club. In Alfred Park in 1931, Chandrashekhar Azad died when "
+"surrounded by British police. The Nehru family homes, Anand Bhavan and "
+"Swaraj Bhavan, were centres of Indian National Congress activity. During the "
+"years before independence Allahabad was home to thousands of satyagrahis led "
+"by Purushottam Das Tandon, Bishambhar Nath Pande, Narayan Dutt Tiwari and "
+"others. The first seeds of the Pakistani nation were sown in Allahabad. On "
+"29 December 1930, Allama Muhammad Iqbal\\"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:27
+msgid ""
+"Allahabad is known as the \"city of prime ministers\" because seven out of "
+"15 prime ministers of India since independence have connections to Allahabad "
+"(Jawaharlal Nehru, Lal Bahadur Shastri, Indira Gandhi, Rajiv Gandhi, "
+"Gulzarilal Nanda, Vishwanath Pratap Singh and Chandra Shekhar). All seven "
+"leaders were either born there, were alumni of Allahabad University or were "
+"elected from an Allahabad constituency"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:30
+msgid "Key Facts"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:33
+msgid "Population: 1,117,094"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:35
+msgid "Area: 70.5 sq. km(27.2 sq mi)"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:37
+msgid "Time zone: IST (UTC+5:30)"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:39
+msgid "Coordinates: 25°27′N 81°51′E"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:41
+msgid "PIN: 211001-18"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:43
+msgid "Elevation: 98 m(322 ft)"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:45
+msgid "Sex ratio: 978 ♂/1000♀"
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:60
+msgid "TAKE A MOMENT..."
+msgstr ""
+
+#: TourismPlaces/templates/allahabad/history_alld.html:61
+msgid ""
+"IMMERSE YOURSELF IN SOME OF THE MOST INSPIRING DESTINATIONS AND VIBRANT "
+"PLACES OF ALLAHABAD."
+msgstr ""
+
+#: TourismPlaces/templates/explore/explore_place.html:16
+#, python-format
+msgid " Explore %(place_type)s in Allahabad "
+msgstr ""
+
+#: TourismPlaces/templates/explore/explore_place.html:21
+msgid "filter by:"
+msgstr ""
+
+#: TourismPlaces/templates/explore/explore_place.html:24
+msgid "All"
+msgstr ""
+
+#: TourismPlaces/templates/explore/explore_place.html:27
+msgid "Pictures"
+msgstr ""
+
+#: TourismPlaces/templates/explore/explore_place.html:30
+msgid "Video"
+msgstr ""
+
+#: TourismPlaces/templates/explore/explore_place.html:81
+msgid "Videos coming soon"
+msgstr ""
+
+#: TourismPlaces/templates/google_weather.html:73
+#: TourismPlaces/templates/layout.html:98
+#: TourismPlaces/templates/maps_distance.html:14
+msgid "Home"
+msgstr ""
+
+#: TourismPlaces/templates/img_show_all.html:40
+msgid "Beautiful Prayag"
+msgstr ""
+
+#: TourismPlaces/templates/img_show_all.html:43
+msgid "Collection of heart touching views at Prayag"
+msgstr ""
+
+#: TourismPlaces/templates/layout.html:6
+msgid "Map"
+msgstr ""
+
+#: TourismPlaces/templates/maps_distance.html:6
+msgid "Planning - Prayag Tourism"
+msgstr ""
+
+#: TourismPlaces/templates/maps_distance.html:25
+msgid "Walking"
+msgstr ""
+
+#: TourismPlaces/templates/maps_distance.html:28
+msgid "Transit"
+msgstr ""
+
+#: TourismPlaces/templates/maps_distance.html:31
+msgid "Driving"
+msgstr ""
+
+#: TourismPlaces/templates/place_detail.html:99
+msgid "A Glimps of Triveni Sangam in Khubh Documentry , for more videos"
+msgstr ""
+
+#: TourismPlaces/templates/place_detail.html:99
+msgid "click here"
+msgstr ""
+
+#: TourismPlaces/templates/place_detail.html:141
+#, python-format
+msgid " See What People say about %(place.name)s "
+msgstr ""
+
+#: TourismPlaces/templates/place_detail.html:159
+msgid "Share Your Experience If you visited this place ..."
+msgstr ""
+
+#: TourismPlaces/templates/place_detail.html:169
+msgid "Submit Review"
+msgstr ""
+
+#: TourismPlaces/templates/place_detail.html:186
+#, python-format
+msgid " View more images of %(place.name)s "
+msgstr ""
+
+#: TourismPlaces/templates/place_detail.html:187
+#, python-format
+msgid " View more Videos of %(place.name)s "
+msgstr ""
+
+#: TourismPlaces/templates/place_detail.html:194
+#, python-format
+msgid " You are at %(place.name)s "
+msgstr ""
+
+#: TourismPlaces/templates/temp_display.html:5
+msgid "Current Temperature"
+msgstr ""
+
+#: TourismPlaces/templates/temp_display.html:7
+msgid "The current temperature (F) is : {{ temp }} degrees."
+msgstr ""
+
+#: TourismPlaces/templates/temp_events/magh_fair.html:6
+msgid "Magh Mela - 2018"
+msgstr ""
+
+#: TourismPlaces/templates/video_show_all.html:28
+msgid "Beautful Prayag"
+msgstr ""
+
+#: TourismPlaces/templates/video_show_all.html:31
+msgid "Videos show the awesome beauty of Prayag!!"
+msgstr ""
+
+#: Users/templates/change_password.html:5
+msgid "Prayag Tourism - Settings"
+msgstr ""
+
+#: Users/templates/change_password.html:19
+msgid "Change Password"
+msgstr ""
+
+#: Users/templates/change_password.html:26 Users/templates/profile.html:91
+msgid "Save"
+msgstr ""
+
+#: Users/templates/login.html:20 Users/templates/login.html:30
+msgid ""
+"Please enter a correct Contact no. and password. Note that password may be "
+"case-sensitive."
+msgstr ""
+
+#: Users/templates/login.html:37
+msgid "Login to your account"
+msgstr ""
+
+#: Users/templates/login.html:45 Users/templates/login.html:55
+msgid "error"
+msgstr ""
+
+#: Users/templates/login.html:61
+msgid "Login"
+msgstr ""
+
+#: Users/templates/login.html:63
+msgid "Forgot Password ?"
+msgstr ""
+
+#: Users/templates/login.html:65
+msgid "Reset Password"
+msgstr ""
+
+#: Users/templates/login.html:81 Users/templates/signup.html:63
+msgid "Take a Moment"
+msgstr ""
+
+#: Users/templates/profile.html:31
+msgid "Welcome"
+msgstr ""
+
+#: Users/templates/profile.html:52
+msgid "Name :"
+msgstr ""
+
+#: Users/templates/profile.html:56 Users/templates/profile.html:85
+msgid "Email :"
+msgstr ""
+
+#: Users/templates/profile.html:60
+msgid "Contact no :"
+msgstr ""
+
+#: Users/templates/profile.html:70
+msgid "Change Details"
+msgstr ""
+
+#: Users/templates/profile.html:77
+msgid "First Name:"
+msgstr ""
+
+#: Users/templates/profile.html:78
+msgid "First Name"
+msgstr ""
+
+#: Users/templates/profile.html:81
+msgid "Last Name:"
+msgstr ""
+
+#: Users/templates/profile.html:82
+msgid "Last Name"
+msgstr ""
+
+#: Users/templates/profile.html:86
+msgid "Email"
+msgstr ""
+
+#: Users/templates/signup.html:31
+msgid "Please enter a correct Contact no. and password."
+msgstr ""
+
+#: Users/templates/signup.html:37
+msgid "Please enter a correct Contact no/Phone. and password(of length >=4)."
+msgstr ""
+
+#: Users/templates/signup.html:42
+msgid "Register a new account"
+msgstr ""
+
+#: Users/templates/signup.html:43
+msgid "Already a member? Click"
+msgstr ""
+
+#: Users/templates/signup.html:44
+msgid "HERE"
+msgstr ""
+
+#: Users/templates/signup.html:44
+msgid "to login to your account."
+msgstr ""
+
+#: Users/templates/signup.html:48
+msgid "Register"
+msgstr ""
+
+#: Users/templates/signup.html:66
+msgid "IMMERSE YOURSELF IN SOME OF THE INSPIRING DESTINATIONS IN ALLAHABAD"
+msgstr ""

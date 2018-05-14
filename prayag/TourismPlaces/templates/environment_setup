@@ -1,0 +1,156 @@
+{% extends "prayag/base.html" %}
+{% load staticfiles %}
+
+
+{% block extra_head %}
+<!-- My extra header -->
+<link rel="stylesheet" href="https://cdn.pannellum.org/2.3/pannellum.css"/>
+<script type="text/javascript" src="https://cdn.pannellum.org/2.3/pannellum.js"></script>
+<style>
+.view360 {
+    height: 400px;
+}
+#controls {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 3px;
+}
+.ctrl {
+    padding: 8px 5px;
+    width: 30px;
+    text-align: center;
+    background: rgba(200, 200, 200, 0.8);
+    display: inline-block;
+    cursor: pointer;
+}
+.ctrl:hover {
+    background: rgba(200, 200, 200, 1);
+}
+</style>
+{% endblock extra_head %}
+
+
+
+{% block main_content %}
+
+<!-- === BEGIN CONTENT === -->
+<div id="content">
+    <div class="container background-white">
+        <div class="row margin-vert-30">
+            <div class="col-md-12 margin-top-30">
+                <div id="Mankameshwar" class="view360"></div>
+            </div>
+            <div class="col-md-12 margin-top-30">
+                <div id="KalyaniDeviTemple" class="view360"></div>
+            </div>
+            <div class="col-md-12 margin-top-30">
+                <div id="KhusroBagh" class="view360"></div>
+            </div>
+            <div class="col-md-12 margin-top-30">
+                <div id="Cathedral" class="view360"></div>
+            </div>
+            <div class="col-md-12 margin-top-30">
+                <div id="khusro" class="view360"></div>
+            </div>
+            <div class="col-md-12 margin-top-30">
+                <div id="BaluaGhat" class="view360"></div>
+            </div>
+            <div class="col-md-12 margin-top-30">
+                <div id="khusro_bagh" class="view360"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock main_content %}
+
+
+
+
+{% block extra_js %}
+<script>
+// Create viewer
+pannellum.viewer('Mankameshwar', ﻿{
+    "type": "equirectangular",
+    "panorama": "https://i.imgur.com/ovSILHT.jpg",
+    "autoLoad": true,
+    "autoRotate": -3,
+    "autoRotateInactivityDelay": 3000,
+    "title": "Mankameshwar",
+    "author": "MHM MNNIT"
+});
+
+pannellum.viewer('KalyaniDeviTemple', ﻿{
+    "type": "equirectangular",
+    "panorama": "https://i.imgur.com/lLyaC0L.jpg",
+    "autoLoad": true,
+    "autoRotate": -3,
+    "autoRotateInactivityDelay": 3000,
+    "preview": "assets/img/portfolio/image7.jpg",
+    "title": "Kalyani Devi Temple",
+    "author": "MHM MNNIT"
+});
+
+pannellum.viewer('KhusroBagh', ﻿{
+    "type": "equirectangular",
+    "panorama": "https://i.imgur.com/MUnMnku.jpg",
+    "autoLoad": true,
+    "autoRotate": -3,
+    "autoRotateInactivityDelay": 3000,
+    "preview": "https://i.imgur.com/MUnMnku.jpg",
+    "title": "Khusro Bagh",
+    "author": "MHM MNNIT"
+});
+
+pannellum.viewer('Cathedral', ﻿{
+    "type": "equirectangular",
+    "panorama": "https://i.imgur.com/R9OHgde.jpg",
+    "autoLoad": true,
+    "autoRotate": -3,
+    "autoRotateInactivityDelay": 3000,
+    "preview": "assets/img/portfolio/image7.jpg",
+    "title": "Cathedral",
+    "author": "MHM MNNIT"
+});
+
+pannellum.viewer('BaluaGhat', ﻿{
+    "type": "equirectangular",
+    "panorama": "https://i.imgur.com/YogcI2e.jpg",
+    "autoLoad": true,
+    "autoRotate": -3,
+    "autoRotateInactivityDelay": 3000,
+    "preview": "assets/img/portfolio/image7.jpg",
+    "title": "Balua Ghat",
+    "author": "MHM MNNIT"
+});
+
+// Create another viewer
+pannellum.viewer('khusro_bagh', ﻿{
+    "type": "equirectangular",
+    "panorama": "https://i.imgur.com/CIhkAFW.jpg",
+    "autoLoad": true,
+    "autoRotate": -3,
+    "preview": "assets/img/portfolio/image7.jpg",
+    "autoRotateInactivityDelay": 3000,
+    "title": "Khusro Bagh",
+    "author": "MNNIT"
+});
+
+// Create another viewer
+pannellum.viewer('khusro', ﻿{
+    "type": "equirectangular",
+    "panorama": "https://i.imgur.com/xTXgkU5.jpg",
+    "autoLoad": true,
+    "autoRotate": -3,
+    "preview": "assets/img/portfolio/image7.jpg",
+    "autoRotateInactivityDelay": 3000,
+    "title": "Khusro Bagh",
+    "author": "MNNIT"
+});
+
+</script>
+
+{% endblock extra_js %}

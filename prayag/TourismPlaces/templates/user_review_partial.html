@@ -1,0 +1,36 @@
+ {% load i18n %}
+{% load staticfiles %}
+     
+   {% block head %} 
+
+           <link rel="stylesheet" href="{% static 'assets/css/feeds.css' %}" rel="stylesheet">
+          <link rel="stylesheet" href="{% static 'assets/css/feeds_profile_extra.css.css' %}" rel="stylesheet">
+   <style type="text/css">
+ .green {  
+    color: #008080;
+ }
+/* .like .heart{ 
+  color: green; 
+ } */ 
+.like{ font-weight: bold; font-size:13px; color: gray; }
+.unlike { font-weight: bold; color: #008080; font-size:12px; }
+.feeds:hover { background-color: #f5f8fa; cursor: pointer;}
+   </style>     
+   {% endblock %}  
+
+<li style="margin-left:0px; list-style: none;" class="feeds">
+  <div class="feed-container">
+    
+    <div class="post">
+
+        <span style="color: black; font-size:15px;"> {{ feed.user.profile.get_screen_name }}
+             &nbsp &nbsp <small style="color: green; font-size: 12px;">{{ feed.date }}</small>
+        </span>
+
+      </h3> 
+      <p style="margin-bottom:7px; margin-top:7px color:black; font-size: 13px; margin-left: -10px;">{{ feed.post|linebreaks }}</p>
+
+      </div>
+    </div>
+</li>
+<hr>

@@ -1,0 +1,238 @@
+{% load staticfiles %}
+{% load i18n %}
+<!DOCTYPE html>
+<head>
+
+	<title>{% trans 'Magh Mela - 2018' %}</title>
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'css_temp_event/animate.css' %}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'css_temp_event/icomoon.css' %}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'css_temp_event/bootstrap.css' %}">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="{% static 'css_temp_event/superfish.css' %}">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="{% static 'css_temp_event/flexslider.css' %}">
+
+	<link rel="stylesheet" href="{% static 'css_temp_event/style.css' %}">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+<![endif]-->
+<style type="text/css">
+.marquee-outer {
+ height: 100px;    
+ overflow: hidden;
+ position: relative;
+ color: orange;
+}
+.marquee-inner {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);    
+ transform:translateX(100%);
+ /* Apply animation to this element */    
+ -moz-animation: scroll-left 5s linear infinite;
+ -webkit-animation: scroll-left 5s linear infinite;
+ animation: scroll-left 5s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%);         
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+
+
+body{
+	background-image: url("{% static 'images/project-1.jpeg' %}");
+}
+</style>
+</head>
+<body>
+	<div class="marquee-outer">
+		<div class="marquee-inner"><img src="{% static 'images/important_notice.png' %}" width="94" height="88" alt="Important Notice"></div>
+	</div>
+	{% for notice in related_images %}
+	{% if notice.name == "Magh Mela Notice" %}
+	<html> <body > <a href="{{notice.image.url}}"><center><b>Click Here to View Important Notice</b></center></a> </body> </html> 
+	{% endif %}
+	{% endfor %}
+	<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+			<div id="fh5co-header">
+				<header id="fh5co-header-section">
+					<div class="container">
+						<div class="nav-header">
+							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+							<h1 id="fh5co-logo"><a href="index.html"><i class="icon-home2"></i>Magh Mela-2018</a></h1>
+							<!-- START #fh5co-menu-wrap -->
+							<ul class="sf-menu" id="fh5co-primary-menu">
+								<li><a href="{% url 'home' %}">home</a></li>
+
+							</ul>
+						</div>
+					</div>
+				</header>		
+			</div>
+			<!-- end:fh5co-header -->
+			<aside id="fh5co-hero" class="js-fullheight">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+						<li style="background-image: url("{% static 'images/slide_1.jpeg' %}");">
+							<div class="overlay-gradient"></div>
+							<div class="container">
+								<div class="col-md-5 col-sm-6 col-xs-12 js-fullheight slider-text">
+									<div class="slider-text-inner">
+										<div class="desc">
+											<h2>Magh Mela Latest Updates</h2>
+											<p><a href="#" class="btn btn-primary btn-outline">View Details</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li style="background-image: url("{% static 'images/slide_2.jpeg' %}");">
+							<div class="overlay-gradient"></div>
+							<div class="container">
+								<div class="col-md-5 col-sm-6 col-xs-12 js-fullheight slider-text">
+									<div class="slider-text-inner">
+										<div class="desc">
+											<h2>Magh Mela Latest Updates</h2>
+											<p><a href="#" class="btn btn-primary btn-outline">View Details</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li style="background-image: url("{% static 'images/slide_3.jpeg' %}");">
+							<div class="overlay-gradient"></div>
+							<div class="container">
+								<div class="col-md-5 col-sm-6 col-xs-12 js-fullheight slider-text">
+									<div class="slider-text-inner">
+										<div class="desc">
+											<h2>Magh Mela Latest Updates</h2>
+											<p><a href="#" class="btn btn-primary btn-outline">View Details</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</aside>
+			<style type="text/css">
+			
+			</style>
+			<div id="fh5co-section" >
+				{% for picture in related_images %}
+				{% if picture.name != "Magh Mela Notice" %}
+				<div class="grid-project-section">
+					<a href="#">
+						<img src="{{picture.image.url}}" alt="Project" class="img-responsive">
+						<div class="desc text-center">
+							<h2>{{picture.name}}</h2>
+						</div>
+					</a>
+
+				</div>
+				{% endif %}
+				{% endfor %}
+			</div>
+			
+
+			<section  id="about">
+				<div class="container">
+					<div class="row text-center">
+						<h2 style="color:white;"><strong>TAKE A MOMENT</strong> </h2> 
+						<div class="text-center">
+							<div class="col-md-12 col-sm-12 ">
+								<h3 style="color:white;"><strong class="moment_text">IMMERSE YOURSELF IN SOME OF THE MOST INSPIRING DESTINATIONS AND VIBRANT PLACES OF UTTAR PRADESH.</stong><h3><br>
+									<a href="{% url 'img_show' place.slug %}"><button  type="button" class="w3-button w3-purple">View more images</button></a>
+									<a href="{% url 'video_show' place.slug %}"><button type="button" class="w3-button w3-purple">View more Videos</button></a>  
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				
+
+			</div>
+			<!-- END fh5co-page -->
+
+		</div>
+		<!-- END fh5co-wrapper -->
+
+		<!-- jQuery -->
+
+
+		<script src="{% static 'js/jquery.min.js' %}"></script>
+		<!-- jQuery Easing -->
+		<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+		<!-- Bootstrap -->
+		<script src="{% static 'js/bootstrap.min.js' %}"></script>
+		<!-- Waypoints -->
+		<script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+		<!-- Superfish -->
+		<script src="{% static 'js/hoverIntent.js' %}"></script>
+		<script src="{% static 'js/superfish.js' %}"></script>
+		<!-- Flexslider -->
+		<script src="{% static 'js/jquery.flexslider-min.js' %}"></script>
+
+		<!-- Main JS (Do not remove) -->
+		<script src="{% static 'js/main.js' %}"></script>
+
+		
+<script type="text/javascript">
+
+<script type="text/javascript" src="{% static 'js/typeit.min.js' %}" type="text/javascript"></script>
+
+<script type="text/javascript">
+new TypeIt('.moment_text', {
+	strings: 'This is a simple string.',
+	speed: 100,
+	loop:true,
+	autoStart: false,
+});
+
+</script>
+
+
+
+</body>
+</html>

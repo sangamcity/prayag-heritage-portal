@@ -1,0 +1,614 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-27 20:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prayag/templates/403.html:7
+msgid "Permission denied - 403"
+msgstr ""
+
+#: prayag/templates/403.html:23
+msgid "Permisions denied..."
+msgstr ""
+
+#: prayag/templates/403.html:24 prayag/templates/404.html:24
+#: prayag/templates/500.html:24
+msgid "Ooops! Something went wrong. Try again!"
+msgstr ""
+
+#: prayag/templates/404.html:7
+msgid "Prayag Tourism - 404"
+msgstr ""
+
+#: prayag/templates/404.html:23
+msgid "Page not found..."
+msgstr ""
+
+#: prayag/templates/500.html:7
+msgid "Prayag Tourism - 500"
+msgstr ""
+
+#: prayag/templates/500.html:23
+msgid "Internal Server Error..."
+msgstr ""
+
+#: prayag/templates/acknowledge.html:12
+msgid "Acknowledgement"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:15
+msgid "District Administrations"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:18
+msgid "Mr. Suhas LY IAS"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:18
+msgid "District Magistrate Allahabad"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:22
+msgid "Dr. R. Rajaganapathy IAS"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:22
+msgid "SDM Karchana , Allahabad"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:26
+msgid "Mr. Anupam Srivastava"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:26
+msgid "Regional Tourism Officer Allahabad"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:30
+msgid "Mr. Vijay Kumar"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:30
+msgid "NIC Officer Allahabad"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:32
+msgid "Mentors"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:35
+msgid "Dr. A. K. Singh"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:35
+msgid "Associate Professor , MNNIT Allahabad"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:39
+msgid "Dr. R. K. Singh"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:39
+msgid "Dean Student welfare , MNNIT Allahabad"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:41
+msgid "Web Team"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:44
+msgid "Deepak Bharti"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:44 prayag/templates/acknowledge.html:48
+#: prayag/templates/acknowledge.html:52 prayag/templates/acknowledge.html:56
+#: prayag/templates/acknowledge.html:60 prayag/templates/acknowledge.html:65
+#: prayag/templates/acknowledge.html:69 prayag/templates/acknowledge.html:73
+#: prayag/templates/acknowledge.html:77 prayag/templates/acknowledge.html:81
+#: prayag/templates/acknowledge.html:85 prayag/templates/acknowledge.html:89
+#: prayag/templates/acknowledge.html:93 prayag/templates/acknowledge.html:98
+msgid "MNNIT Allahabad"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:48
+msgid "Suraj Kumar Mall"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:52
+msgid "Sushant Oberoi"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:56
+msgid "Ritika Bharti"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:60
+msgid "Samyak Jain"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:62
+msgid "Media House Of MNNIT (Official Media Group Of MNNIT)"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:65
+msgid "Sanket Temani"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:69
+msgid "Naman Kishore"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:73
+msgid "Joydeep Haldar"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:77
+msgid "Sai Kumar Thunga"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:81
+msgid "Shashank"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:85
+msgid "Pratik"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:89
+msgid "Akash Patel"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:93
+msgid "Trisha Tiwari"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:95
+msgid "DPM Originals"
+msgstr ""
+
+#: prayag/templates/acknowledge.html:98
+msgid "Divyanshu Mishra"
+msgstr ""
+
+#: prayag/templates/coming_soon/coming_soon.html:17
+#: prayag/templates/footer.html:31 prayag/templates/navbar.html:90
+msgid "Home"
+msgstr ""
+
+#: prayag/templates/coming_soon/coming_soon.html:24
+msgid "Coming soon!"
+msgstr ""
+
+#: prayag/templates/coming_soon/coming_soon.html:25
+msgid "Be ready for the thrill !!"
+msgstr ""
+
+#: prayag/templates/contact.html:6
+msgid "Prayag Tourism - Contact Information"
+msgstr ""
+
+#: prayag/templates/contact.html:130
+msgid "Allahabad Administration"
+msgstr ""
+
+#: prayag/templates/contact.html:140
+msgid "District Magistrate (Allahabad)"
+msgstr ""
+
+#: prayag/templates/contact.html:141
+msgid "Contact details"
+msgstr ""
+
+#: prayag/templates/contact.html:162
+msgid "MEET WEB TEAM"
+msgstr ""
+
+#: prayag/templates/feedback.html:41
+msgid "FeedBack Form"
+msgstr ""
+
+#: prayag/templates/feedback.html:43
+msgid ""
+"Please provide your valuable feedback, It may be a suggestion or a complaint "
+"of any type."
+msgstr ""
+
+#: prayag/templates/feedback.html:51
+msgid "Name"
+msgstr ""
+
+#: prayag/templates/feedback.html:60
+msgid "Email"
+msgstr ""
+
+#: prayag/templates/feedback.html:72
+msgid "Complaint Type"
+msgstr ""
+
+#: prayag/templates/feedback.html:76
+msgid "Complaint"
+msgstr ""
+
+#: prayag/templates/feedback.html:77
+msgid "Suggestion"
+msgstr ""
+
+#: prayag/templates/feedback.html:81
+msgid "Message"
+msgstr ""
+
+#: prayag/templates/feedback.html:89
+msgid "Send Message"
+msgstr ""
+
+#: prayag/templates/feedback.html:102
+#: prayag/templates/prayag/quote_section.html:5
+msgid "Take a Moment"
+msgstr ""
+
+#: prayag/templates/feedback.html:105
+msgid "IMMERSE YOURSELF IN SOME OF THE INSPIRING DESTINATIONS IN ALLAHABAD"
+msgstr ""
+
+#: prayag/templates/footer.html:12
+msgid "Contact Details"
+msgstr ""
+
+#: prayag/templates/footer.html:14
+msgid "Mobile No:"
+msgstr ""
+
+#: prayag/templates/footer.html:16
+msgid "Email:"
+msgstr ""
+
+#: prayag/templates/footer.html:28
+msgid "Important Links"
+msgstr ""
+
+#: prayag/templates/footer.html:34 prayag/templates/navbar.html:121
+msgid "360 Views"
+msgstr ""
+
+#: prayag/templates/footer.html:37
+msgid "Images"
+msgstr ""
+
+#: prayag/templates/footer.html:40
+msgid "Videos"
+msgstr ""
+
+#: prayag/templates/footer.html:56
+msgid "Switch language"
+msgstr ""
+
+#: prayag/templates/footer.html:67
+msgid "Tell us about your experience"
+msgstr ""
+
+#: prayag/templates/footer.html:69
+msgid "Visit places and share your valuable feedback about them!"
+msgstr ""
+
+#: prayag/templates/footer.html:71 prayag/templates/navbar.html:192
+msgid "Feedback"
+msgstr ""
+
+#: prayag/templates/footer.html:84
+msgid "Disclaimer :"
+msgstr ""
+
+#: prayag/templates/footer.html:84
+msgid ""
+"The content provided in the website is true to the best of our knowledge. "
+"Any resemblance or contradiction regarding any content provided is not a "
+"matter of authority of the web team or other members involved in this portal."
+msgstr ""
+
+#: prayag/templates/footer.html:85
+msgid "β version,under devleopment."
+msgstr ""
+
+#: prayag/templates/navbar.html:93
+msgid "HighLights"
+msgstr ""
+
+#: prayag/templates/navbar.html:96 prayag/templates/navbar.html:186
+msgid "About"
+msgstr ""
+
+#: prayag/templates/navbar.html:99 prayag/templates/prayag/home.html:152
+msgid "History"
+msgstr ""
+
+#: prayag/templates/navbar.html:104
+msgid "Future Events"
+msgstr ""
+
+#: prayag/templates/navbar.html:107
+msgid "Magh Mela-2018"
+msgstr ""
+
+#: prayag/templates/navbar.html:110
+msgid "Kumbh Mela-2019"
+msgstr ""
+
+#: prayag/templates/navbar.html:115 prayag/templates/prayag/home.html:206
+msgid "Allahabad on Map"
+msgstr ""
+
+#: prayag/templates/navbar.html:118 prayag/templates/prayag/home.html:241
+msgid "Allahabad Attractions"
+msgstr ""
+
+#: prayag/templates/navbar.html:124
+msgid "See All Images"
+msgstr ""
+
+#: prayag/templates/navbar.html:127
+msgid "See All Videos"
+msgstr ""
+
+#: prayag/templates/navbar.html:134
+msgid "Explore"
+msgstr ""
+
+#: prayag/templates/navbar.html:137
+msgid "Spiritual Places"
+msgstr ""
+
+#: prayag/templates/navbar.html:143
+msgid "Museums"
+msgstr ""
+
+#: prayag/templates/navbar.html:146
+msgid "Monuments"
+msgstr ""
+
+#: prayag/templates/navbar.html:149
+msgid "Entertainments"
+msgstr ""
+
+#: prayag/templates/navbar.html:152
+msgid "Heritage"
+msgstr ""
+
+#: prayag/templates/navbar.html:158
+msgid "Plan Your Trip"
+msgstr ""
+
+#: prayag/templates/navbar.html:161
+msgid "Book Tickets"
+msgstr ""
+
+#: prayag/templates/navbar.html:164
+msgid "Weather Info"
+msgstr ""
+
+#: prayag/templates/navbar.html:167
+msgid "Optimal Distances"
+msgstr ""
+
+#: prayag/templates/navbar.html:170
+msgid "Stay and Visit"
+msgstr ""
+
+#: prayag/templates/navbar.html:173
+msgid "Hotels"
+msgstr ""
+
+#: prayag/templates/navbar.html:176
+msgid "Restaurants"
+msgstr ""
+
+#: prayag/templates/navbar.html:179
+msgid "Malls"
+msgstr ""
+
+#: prayag/templates/navbar.html:189
+msgid "Contact Us"
+msgstr ""
+
+#: prayag/templates/navbar.html:195
+msgid "Acknowledgements"
+msgstr ""
+
+#: prayag/templates/navbar.html:206
+msgid "Change Password"
+msgstr ""
+
+#: prayag/templates/navbar.html:209
+msgid "Logout"
+msgstr ""
+
+#: prayag/templates/navbar.html:213
+msgid "Join Us"
+msgstr ""
+
+#: prayag/templates/navbar.html:216
+msgid "Register"
+msgstr ""
+
+#: prayag/templates/navbar.html:219
+msgid "Login"
+msgstr ""
+
+#: prayag/templates/navbar.html:235
+msgid "Search Tourism Places"
+msgstr ""
+
+#: prayag/templates/prayag/base.html:22
+msgid "Prayag Tourism"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:55
+msgid "SHRI YOGI ADITYANATH"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:56
+msgid "Hon'ble Chief Minister"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:139
+msgid "Welcome to Allahabad"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:140
+msgid ""
+"Allahabad , is a large metropolitan city in the Indian state of Uttar "
+"Pradesh and the administrative headquarters of Allahabad District, the most "
+"populous district in the state and 13th most populous district in India and "
+"the Allahabad Division. The city is the judicial and political capital of "
+"Uttar Pradesh with Allahabad High Court being the highest judicial body in "
+"the state"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:154
+msgid ""
+"Allahabad also known by its original name Prayag is one of the largest "
+"cities of the North Indian state"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:161
+msgid "Key Facts"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:163
+msgid "• Metropolis   1,117,094"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:164
+msgid "• Rank 36th"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:165
+msgid "• Density  16,000/km2 (41,000/sq mi)"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:166 prayag/templates/prayag/home.html:174
+msgid "Read more"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:171
+msgid "Geography"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:173
+msgid ""
+"Geographically, Allahabad is located at 25.45°N 81.84°E in the southern part "
+"of the Uttar Pradesh."
+msgstr ""
+
+#: prayag/templates/prayag/home.html:228
+msgid "Tweets by uptourismgov"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:324
+msgid "TAKE A MOMENT"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:328
+msgid "View more images"
+msgstr ""
+
+#: prayag/templates/prayag/home.html:329
+msgid "View more Videos"
+msgstr ""
+
+#: prayag/templates/prayag_stay/stay_visit.html:5
+msgid "Prayag Tourism - Stay & Visit"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_complete.html:5
+#: prayag/templates/registration/password_reset_confirm.html:5
+#: prayag/templates/registration/password_reset_done.html:5
+#: prayag/templates/registration/password_reset_form.html:5
+msgid "Prayag Tourism - Password Reset"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_complete.html:19
+msgid "Password Reset Complete"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_complete.html:21
+msgid "Password reset succesful!"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_complete.html:29
+msgid "Log in"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_confirm.html:18
+#: prayag/templates/registration/password_reset_form.html:21
+msgid "Reset Password"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_confirm.html:20
+msgid "Make a strong new password"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_confirm.html:27
+msgid "Change my password"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_confirm.html:31
+msgid ""
+"The Password reset link is invalid, posibly because it has been used. Please "
+"request a new password request."
+msgstr ""
+
+#: prayag/templates/registration/password_reset_done.html:21
+msgid "Password reset Email Sent"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_done.html:23
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+
+#: prayag/templates/registration/password_reset_done.html:25
+msgid ""
+"If you don't receive an email, please make sure you've entered the same "
+"email address as you registered with, and check your spam folder."
+msgstr ""
+
+#: prayag/templates/registration/password_reset_email.html:3
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Hey %(user.get_username)s, forgot Password?, Take it easy, Just reset your "
+"password using the link given below,\n"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_email.html:14
+msgid "Your username, in case you forgot, is :"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_email.html:17
+msgid "Thanks for using our site! We are happy to help you."
+msgstr ""
+
+#: prayag/templates/registration/password_reset_email.html:19
+#, python-format
+msgid "Team PrayagTourism %(site_name)s"
+msgstr ""
+
+#: prayag/templates/registration/password_reset_form.html:27
+msgid "Reset"
+msgstr ""

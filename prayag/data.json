@@ -1,0 +1,4435 @@
+[
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$SsZaVTiDaIyD$6I6s4c+TNkp3RO9jKYqlfdYLXmp1yJeG8hNL/oxKYps=",
+        "last_login": "2017-12-11T05:35:01.226Z",
+        "is_superuser": true,
+        "username": "root",
+        "first_name": "Deepak ",
+        "last_name": "Bharti",
+        "email": "deepakbharti823@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-12-10T18:09:36.893Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$UzJC2COzzM7D$NajCx/dKYwVbKhDbPe9Wp0k+OkUduQQfXRR0S1so+bs=",
+        "last_login": "2017-12-12T07:24:53.198Z",
+        "is_superuser": true,
+        "username": "suraj",
+        "first_name": "",
+        "last_name": "",
+        "email": "surajmall874@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-12-11T07:39:09.600Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$BuUd3gcK5wM9$DryktX9yIZoP4w+qr1CXSIULM52nrlwqPxW1OFDo3Xo=",
+        "last_login": "2018-02-01T19:03:51.148Z",
+        "is_superuser": true,
+        "username": "team",
+        "first_name": "Team",
+        "last_name": "Awsome",
+        "email": "prayaheritageportal@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-12-23T09:57:35.351Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$ZxDwYBQ4ZvRV$zQ11lGmALM+mgnjy7MmpIM72ry32JaoNdmLLcpwvmQg=",
+        "last_login": "2017-12-24T07:26:24.221Z",
+        "is_superuser": false,
+        "username": "7275036250",
+        "first_name": "admin_1",
+        "last_name": "user",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-12-24T07:26:23.827Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$P34UtZUEok8M$6j6a6IG9or14uO240qAgXzoy6ZFTkk7MiYUkE9Geqhs=",
+        "last_login": "2017-12-24T13:15:15.619Z",
+        "is_superuser": false,
+        "username": "rajesh123@gmail.com",
+        "first_name": "Rajesh",
+        "last_name": "Sharma",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-12-24T13:15:15.350Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$01YbGwX1EAae$FwTg5Hc3AjH5C/LXxhjx+IpFdtMcDnkiooqmIX2fTOg=",
+        "last_login": "2018-01-15T18:11:38.324Z",
+        "is_superuser": false,
+        "username": "soorajmall1996@gmail.com",
+        "first_name": "suraj",
+        "last_name": "mall",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-01-15T05:07:37.872Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "01h5kejp8sx4d9bqg60yktr0fvbfeh8q",
+    "fields": {
+        "session_data": "NjBkMTEzMTE3MTEyYjQ3ZTQ3ZTg2MjU3ODNmMzliOTEwN2YxYzAxYjp7Il9sYW5ndWFnZSI6ImVuIn0=",
+        "expire_date": "2018-01-19T16:03:28.293Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2d6ik1cixns2kl5p1tngrh3ioxflrvku",
+    "fields": {
+        "session_data": "NTYwZDg0NjExYzA2NmUxNTMzMzE3YjFkZWIxODZmZTljMjFjM2ExNTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjYiLCJfYXV0aF91c2VyX2hhc2giOiI5YWQ4ODcwNDQwNjhkYzU2YmMxY2Q5MDFhMTRiMGQ5ZjQ5NWMwNTcwIn0=",
+        "expire_date": "2018-01-06T12:14:25.683Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2kzott4zznvcuu72w2ppkvinaxf3hhw2",
+    "fields": {
+        "session_data": "YmQ1ZDE2MzlhMDJhZWEyYzczMjQ5MDEwYjFiNmQ2ODI2ZTg0YTUxNzp7Il9hdXRoX3VzZXJfaWQiOiI2IiwiX2xhbmd1YWdlIjoiaGkiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjZjYTFhY2YyMDYyY2NkNjIyOTQ5N2Y4NWRjZjM0NjgyM2JhNjhiYjAifQ==",
+        "expire_date": "2018-02-16T15:50:36.122Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "44ofaw0fewfwqjt20onhq2xl9gnzslo2",
+    "fields": {
+        "session_data": "MGM5Yjk0YTIxM2NhZjdmMzQ5NWJiODA4ZjVlMDAzMTY0YTk0ZWYwYTp7Il9sYW5ndWFnZSI6ImhpIn0=",
+        "expire_date": "2018-01-10T20:46:01.262Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "5vf6k4ymq9svrnjrtqed62sbwhot7gom",
+    "fields": {
+        "session_data": "YTNhMjEwMDYzZWI5MGE3MTZlNTE5NzM0NGM4YjU0Yjk0NmMyODRlNTp7Il9hdXRoX3VzZXJfaWQiOiI0IiwiX2F1dGhfdXNlcl9oYXNoIjoiNGQ2ZDM5MzA1YzNiNGY5ZGEyZDY5YTJiOTE3MGQwZDlhMDM1YjM4NSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+        "expire_date": "2017-12-24T18:20:46.764Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7hnklbtysp9907yii6gsbhka2ly7n0ak",
+    "fields": {
+        "session_data": "NjhiNDEzMWVhN2Q4OTk5OTk2MzM2NDNhYWMyODFkNmFlOWQ5Mzk5YTp7Il9hdXRoX3VzZXJfaGFzaCI6IjI1ZDMxZGE1MzI1NzQ1ZWFhY2M2YjIyMWZlNzM0YWVkODE0ZWRiYjIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiI1In0=",
+        "expire_date": "2017-12-26T05:45:21.933Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7qsc6fslgvdslhriedbe456416ng7j98",
+    "fields": {
+        "session_data": "MGM5Yjk0YTIxM2NhZjdmMzQ5NWJiODA4ZjVlMDAzMTY0YTk0ZWYwYTp7Il9sYW5ndWFnZSI6ImhpIn0=",
+        "expire_date": "2018-01-16T14:38:37.247Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "7ztjauffq091tllahqklg2zd12i315u4",
+    "fields": {
+        "session_data": "OGExNWVkMzU2M2ViOTNjYmM0ZDQ5MTFiMDM2YjcwZjQ3OWVkMGI0Njp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiNmNhMWFjZjIwNjJjY2Q2MjI5NDk3Zjg1ZGNmMzQ2ODIzYmE2OGJiMCIsIl9hdXRoX3VzZXJfaWQiOiI2In0=",
+        "expire_date": "2018-01-07T14:17:07.554Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "98l7k0djbv0tv90pfbgqqnrzf6votoxd",
+    "fields": {
+        "session_data": "NjhiNDEzMWVhN2Q4OTk5OTk2MzM2NDNhYWMyODFkNmFlOWQ5Mzk5YTp7Il9hdXRoX3VzZXJfaGFzaCI6IjI1ZDMxZGE1MzI1NzQ1ZWFhY2M2YjIyMWZlNzM0YWVkODE0ZWRiYjIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiI1In0=",
+        "expire_date": "2017-12-26T07:24:53.336Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9o6uzzc0fin1myjjwkzg5muc80ynpknp",
+    "fields": {
+        "session_data": "YmQ1ZDE2MzlhMDJhZWEyYzczMjQ5MDEwYjFiNmQ2ODI2ZTg0YTUxNzp7Il9hdXRoX3VzZXJfaWQiOiI2IiwiX2xhbmd1YWdlIjoiaGkiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjZjYTFhY2YyMDYyY2NkNjIyOTQ5N2Y4NWRjZjM0NjgyM2JhNjhiYjAifQ==",
+        "expire_date": "2018-01-21T08:09:37.153Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "crauq7n9g74rrm8nequgtrpd4jzzq76m",
+    "fields": {
+        "session_data": "OWVhZDNiMTA3NzhiN2EzOWVhMDFjZjE0ZmM4MzhkNGJiNjQ4NWY2NDp7Il9hdXRoX3VzZXJfaGFzaCI6IjRkNmQzOTMwNWMzYjRmOWRhMmQ2OWEyYjkxNzBkMGQ5YTAzNWIzODUiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiI0In0=",
+        "expire_date": "2017-12-25T05:35:01.363Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "cv7d4ylyz6l8a3jr6dvh4r8tn6x5r030",
+    "fields": {
+        "session_data": "MGM5Yjk0YTIxM2NhZjdmMzQ5NWJiODA4ZjVlMDAzMTY0YTk0ZWYwYTp7Il9sYW5ndWFnZSI6ImhpIn0=",
+        "expire_date": "2018-01-12T15:24:59.652Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "emcoockkaoijfoanijyjyidixy8vw186",
+    "fields": {
+        "session_data": "NjBkMTEzMTE3MTEyYjQ3ZTQ3ZTg2MjU3ODNmMzliOTEwN2YxYzAxYjp7Il9sYW5ndWFnZSI6ImVuIn0=",
+        "expire_date": "2018-01-17T16:02:19.772Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "f7v755au0c66fir3n16mn8shkwfnrayx",
+    "fields": {
+        "session_data": "MGM5Yjk0YTIxM2NhZjdmMzQ5NWJiODA4ZjVlMDAzMTY0YTk0ZWYwYTp7Il9sYW5ndWFnZSI6ImhpIn0=",
+        "expire_date": "2018-01-12T04:24:48.522Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fp6nhkth4x8ol9m8ygh2ryxbzgj645aj",
+    "fields": {
+        "session_data": "MGM5Yjk0YTIxM2NhZjdmMzQ5NWJiODA4ZjVlMDAzMTY0YTk0ZWYwYTp7Il9sYW5ndWFnZSI6ImhpIn0=",
+        "expire_date": "2018-01-21T04:29:49.774Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nus9917ppce5ow37e01g0ypqdebhllpz",
+    "fields": {
+        "session_data": "MGM5Yjk0YTIxM2NhZjdmMzQ5NWJiODA4ZjVlMDAzMTY0YTk0ZWYwYTp7Il9sYW5ndWFnZSI6ImhpIn0=",
+        "expire_date": "2018-01-16T17:51:11.352Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "qofnsqzdizurtn0a6ibtnp467hxk2lai",
+    "fields": {
+        "session_data": "MGM5Yjk0YTIxM2NhZjdmMzQ5NWJiODA4ZjVlMDAzMTY0YTk0ZWYwYTp7Il9sYW5ndWFnZSI6ImhpIn0=",
+        "expire_date": "2018-02-07T20:30:55.547Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rtty3iknblmxzpbbip5rj7lbczqzx2ah",
+    "fields": {
+        "session_data": "NjBkMTEzMTE3MTEyYjQ3ZTQ3ZTg2MjU3ODNmMzliOTEwN2YxYzAxYjp7Il9sYW5ndWFnZSI6ImVuIn0=",
+        "expire_date": "2018-01-14T07:27:07.108Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "squcwemgzj2rz8tmpsht4ut5jtm8gryc",
+    "fields": {
+        "session_data": "MGM5Yjk0YTIxM2NhZjdmMzQ5NWJiODA4ZjVlMDAzMTY0YTk0ZWYwYTp7Il9sYW5ndWFnZSI6ImhpIn0=",
+        "expire_date": "2018-01-14T09:46:27.263Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "w5ktp33rm0ozffi6cwl7az9pr9064juz",
+    "fields": {
+        "session_data": "YmQ1ZDE2MzlhMDJhZWEyYzczMjQ5MDEwYjFiNmQ2ODI2ZTg0YTUxNzp7Il9hdXRoX3VzZXJfaWQiOiI2IiwiX2xhbmd1YWdlIjoiaGkiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjZjYTFhY2YyMDYyY2NkNjIyOTQ5N2Y4NWRjZjM0NjgyM2JhNjhiYjAifQ==",
+        "expire_date": "2018-01-30T11:47:25.993Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "xd2g8edl5ncoa62vexkyjji2wq9e4bse",
+    "fields": {
+        "session_data": "ZGVlNzY5OWNkYjM0ZTFkYTNjZDk3YzZhMGZmYjg5MjUwZDlmNDUxNTp7Il9hdXRoX3VzZXJfaWQiOiIxMCIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiZThjMDk5MTkyYTVjZmU5NGYzNGQzMzdmODU3NTg1ODRiNjE3ZjM2MCJ9",
+        "expire_date": "2018-01-29T05:07:38.003Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "xd46axyn1aebb5uxwxb6qmp6dy6h9g0c",
+    "fields": {
+        "session_data": "ODFlZjg2NTcwZjAyOWRiNjE3MjEzMmJmODRmMTQ2ZTFjNzAxNDA5Zjp7Il9hdXRoX3VzZXJfaWQiOiIxMCIsIl9sYW5ndWFnZSI6ImhpIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJlOGMwOTkxOTJhNWNmZTk0ZjM0ZDMzN2Y4NTc1ODU4NGI2MTdmMzYwIn0=",
+        "expire_date": "2018-01-29T18:11:38.330Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "y8v22o43je816hgx3kmghoapsxvdtsxv",
+    "fields": {
+        "session_data": "MGM5Yjk0YTIxM2NhZjdmMzQ5NWJiODA4ZjVlMDAzMTY0YTk0ZWYwYTp7Il9sYW5ndWFnZSI6ImhpIn0=",
+        "expire_date": "2018-01-15T09:28:37.228Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zjor6ord9k68k6y1k9g3qagy5z5xrfa2",
+    "fields": {
+        "session_data": "NWIwMDE5MWM4NjdkNzBlZjA0ZjczZjE3NDc5YTZkN2MyM2Q3NTM2ZTp7Il9hdXRoX3VzZXJfaGFzaCI6IjZjYTFhY2YyMDYyY2NkNjIyOTQ5N2Y4NWRjZjM0NjgyM2JhNjhiYjAiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiI2In0=",
+        "expire_date": "2018-01-07T09:00:57.672Z"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 17,
+    "fields": {
+        "tourism_place": 22,
+        "name": "Anand bhawan front",
+        "slug": "anand-bhawan-front",
+        "image": "place_pictures/anand-bhawan/WhatsApp_Image_2017-12-04_at_9.15.33_PM_1.jpeg",
+        "height_field": 792,
+        "width_field": 1188,
+        "description": "Front view of Anand Bhawan ."
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 18,
+    "fields": {
+        "tourism_place": 8,
+        "name": "Allahabad fort sky",
+        "slug": "allahabad-fort-sky",
+        "image": "place_pictures/allahabad-fort-patalpuri-temple/WhatsApp_Image_2017-12-04_at_9.15.42_PM.jpeg",
+        "height_field": 752,
+        "width_field": 1280,
+        "description": "Sky view of allahabad fort ."
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 19,
+    "fields": {
+        "tourism_place": 19,
+        "name": "Sangam front",
+        "slug": "sangam-front",
+        "image": "place_pictures/triveni-sangam/Picture6.jpg",
+        "height_field": 998,
+        "width_field": 1502,
+        "description": "Triveni Sangam morning view from the Ganga River ."
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 20,
+    "fields": {
+        "tourism_place": 19,
+        "name": "Sanagam 2",
+        "slug": "sanagam-2",
+        "image": "place_pictures/triveni-sangam/Picture4.jpg",
+        "height_field": 1002,
+        "width_field": 1502,
+        "description": "Birds flying over the Triveni Ganga"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 21,
+    "fields": {
+        "tourism_place": 19,
+        "name": "Sanagam 3",
+        "slug": "sanagam-3",
+        "image": "place_pictures/triveni-sangam/Picture1.jpg",
+        "height_field": 1002,
+        "width_field": 1502,
+        "description": "Evening View of allahabad"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 22,
+    "fields": {
+        "tourism_place": 19,
+        "name": "Sanagam 4",
+        "slug": "sanagam-4",
+        "image": "place_pictures/triveni-sangam/DSC_3199-2-3.jpg",
+        "height_field": 3102,
+        "width_field": 4810,
+        "description": "Bird flying over the Ganga ."
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 23,
+    "fields": {
+        "tourism_place": 19,
+        "name": "Sanagam 5",
+        "slug": "sanagam-5",
+        "image": "place_pictures/triveni-sangam/DSC_0420.JPG",
+        "height_field": 4000,
+        "width_field": 6000,
+        "description": "Boats in Triveni Sangam ."
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 24,
+    "fields": {
+        "tourism_place": 19,
+        "name": "Sanagam 6",
+        "slug": "sanagam-6",
+        "image": "place_pictures/triveni-sangam/DSC_0446.JPG",
+        "height_field": 3747,
+        "width_field": 6000,
+        "description": "Triveni Sangam"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 25,
+    "fields": {
+        "tourism_place": 19,
+        "name": "Sanagam 7",
+        "slug": "sanagam-7",
+        "image": "place_pictures/triveni-sangam/DSC_0446_fwLyHZa.JPG",
+        "height_field": 3747,
+        "width_field": 6000,
+        "description": "Triveni Sangam"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 26,
+    "fields": {
+        "tourism_place": 19,
+        "name": "Sanagam 8",
+        "slug": "sanagam-8",
+        "image": "place_pictures/triveni-sangam/DSC_0048.JPG",
+        "height_field": 3892,
+        "width_field": 6000,
+        "description": "Temporary pool on Triveni Sangam"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 27,
+    "fields": {
+        "tourism_place": 19,
+        "name": "Sanagam 9",
+        "slug": "sanagam-9",
+        "image": "place_pictures/triveni-sangam/DSC_0201.JPG",
+        "height_field": 4000,
+        "width_field": 6000,
+        "description": "sun set time at Triveni Sangam ."
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 28,
+    "fields": {
+        "tourism_place": 19,
+        "name": "Sanagam 10",
+        "slug": "sanagam-10",
+        "image": "place_pictures/triveni-sangam/DSC_0367.JPG",
+        "height_field": 4000,
+        "width_field": 6000,
+        "description": "Children in the Form of God at Triveni Sangam"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 30,
+    "fields": {
+        "tourism_place": 8,
+        "name": "fort 2",
+        "slug": "fort-2",
+        "image": "place_pictures/allahabad-fort-patalpuri-temple/2.jpeg",
+        "height_field": 853,
+        "width_field": 1280,
+        "description": "Allahabad Fort's External View from the River ."
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 31,
+    "fields": {
+        "tourism_place": 8,
+        "name": "fort 3",
+        "slug": "fort-3",
+        "image": "place_pictures/allahabad-fort-patalpuri-temple/fort_3.jpg",
+        "height_field": 340,
+        "width_field": 760,
+        "description": "Allahabad Fort"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 32,
+    "fields": {
+        "tourism_place": 9,
+        "name": "hanuman 1",
+        "slug": "hanuman-front",
+        "image": "place_pictures/lord-hanuman-mandir/badehanuman.jpg",
+        "height_field": 397,
+        "width_field": 612,
+        "description": "Internal view of Bade Hanuman Temple  taken by : source - http://www.gettyimages.in"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 33,
+    "fields": {
+        "tourism_place": 9,
+        "name": "hanuman front",
+        "slug": "hanuman-1",
+        "image": "place_pictures/lord-hanuman-mandir/hanuman.jpg",
+        "height_field": 459,
+        "width_field": 832,
+        "description": "Front view of Hanuman Temple taken by source - http://www.templeadvisor.com/temples-in-india/hindu-temples/allahabad-hanuman-temple"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 34,
+    "fields": {
+        "tourism_place": 9,
+        "name": "hanuman 2",
+        "slug": "hanuman-2",
+        "image": "place_pictures/lord-hanuman-mandir/sri-hanuman-temple_1414663405.jpg",
+        "height_field": 554,
+        "width_field": 832,
+        "description": "Hanuman Temple during the flood take by source -  http://www.templeadvisor.com/temples-in-india/hindu-temples/allahabad-hanuman-temple"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 36,
+    "fields": {
+        "tourism_place": 12,
+        "name": "Mankameshwar front",
+        "slug": "mankameshwar-front",
+        "image": "place_pictures/mankameshwar-temple/DSC_0084.JPG",
+        "height_field": 4000,
+        "width_field": 6000,
+        "description": "Front Gate of Mankameshwar Temple , Allahabad"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 37,
+    "fields": {
+        "tourism_place": 12,
+        "name": "Mankameshwar 1",
+        "slug": "mankameshwar-1",
+        "image": "place_pictures/mankameshwar-temple/DSC_0086.JPG",
+        "height_field": 4000,
+        "width_field": 6000,
+        "description": "Lord Hanuman inside the Mankameshwar Temple"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 38,
+    "fields": {
+        "tourism_place": 25,
+        "name": "Someshwar front",
+        "slug": "someshwar-front",
+        "image": "place_pictures/someshwar-mahadev-temple/IMG-20170626-WA0008.jpg",
+        "height_field": 810,
+        "width_field": 1080,
+        "description": "Someshwar Mahadev Temple"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 39,
+    "fields": {
+        "tourism_place": 25,
+        "name": "Someshwar 1",
+        "slug": "someshwar-1",
+        "image": "place_pictures/someshwar-mahadev-temple/FB_IMG_1494901035452.jpg",
+        "height_field": 720,
+        "width_field": 960,
+        "description": "Decorated Someshwar Mahadev Temple"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 40,
+    "fields": {
+        "tourism_place": 25,
+        "name": "Someshwar 2",
+        "slug": "someshwar-2",
+        "image": "place_pictures/someshwar-mahadev-temple/DSC_3275.jpg",
+        "height_field": 4000,
+        "width_field": 6000,
+        "description": "Front Gate of Someshwar Mahadev Temple"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 41,
+    "fields": {
+        "tourism_place": 20,
+        "name": "Khusro front",
+        "slug": "khusro-front",
+        "image": "place_pictures/khusro-bagh/khusro.jpg",
+        "height_field": 520,
+        "width_field": 950,
+        "description": "Khusro Bagh side view"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 42,
+    "fields": {
+        "tourism_place": 20,
+        "name": "Khusro1",
+        "slug": "khusro1",
+        "image": "place_pictures/khusro-bagh/DSC_0250-2.JPG",
+        "height_field": 4000,
+        "width_field": 6000,
+        "description": "Khusro Bagh Front View"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 43,
+    "fields": {
+        "tourism_place": 20,
+        "name": "Khusro 2",
+        "slug": "khusro-2",
+        "image": "place_pictures/khusro-bagh/khusro_2.jpg",
+        "height_field": 750,
+        "width_field": 1000,
+        "description": "Side View of Khusro Bagh Allahabad"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 44,
+    "fields": {
+        "tourism_place": 20,
+        "name": "Khusro 3",
+        "slug": "khusro-3",
+        "image": "place_pictures/khusro-bagh/DSC_0282.JPG",
+        "height_field": 4000,
+        "width_field": 6000,
+        "description": "Khusro Bagh"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 45,
+    "fields": {
+        "tourism_place": 20,
+        "name": "Khusro 4",
+        "slug": "khusro-4",
+        "image": "place_pictures/khusro-bagh/DSC_3581.jpg",
+        "height_field": 5154,
+        "width_field": 3937,
+        "description": "Front View of Khusro Bagh in Morning"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 46,
+    "fields": {
+        "tourism_place": 26,
+        "name": "naini front",
+        "slug": "naini-front",
+        "image": "place_pictures/new-yamuna-bridge/10.jpeg",
+        "height_field": 853,
+        "width_field": 1280,
+        "description": "New Yamuna Bridge in Evening Time"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 47,
+    "fields": {
+        "tourism_place": 26,
+        "name": "naini 2",
+        "slug": "naini-2",
+        "image": "place_pictures/new-yamuna-bridge/DSC_2916.jpg",
+        "height_field": 4000,
+        "width_field": 5854,
+        "description": "New Yamuna Bridge in Night ."
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 48,
+    "fields": {
+        "tourism_place": 26,
+        "name": "naini 3",
+        "slug": "naini-3",
+        "image": "place_pictures/new-yamuna-bridge/DSC_0174-HDR.jpg",
+        "height_field": 3893,
+        "width_field": 5840,
+        "description": "New Yamuna Bridge Side View"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 49,
+    "fields": {
+        "tourism_place": 26,
+        "name": "naini 4",
+        "slug": "naini-4",
+        "image": "place_pictures/new-yamuna-bridge/DSC_0159-HDR.jpg",
+        "height_field": 3449,
+        "width_field": 5173,
+        "description": "Bottom view of New Yamuna Bridge"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 50,
+    "fields": {
+        "tourism_place": 23,
+        "name": "Jawahar Planetarium front",
+        "slug": "jawahar-planetarium-front",
+        "image": "place_pictures/jawahar-planetarium/jawahar1.jpg",
+        "height_field": 1021,
+        "width_field": 1200,
+        "description": "Jawahar Planetarium"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 51,
+    "fields": {
+        "tourism_place": 27,
+        "name": "Chandra Shekhar front",
+        "slug": "chandra-shekhar-front",
+        "image": "place_pictures/chandra-shekhar-azad-park/DSC_2782.jpg",
+        "height_field": 3937,
+        "width_field": 5833,
+        "description": "Chandrasekhar Azad Park"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 52,
+    "fields": {
+        "tourism_place": 27,
+        "name": "Chandra Shekhar 1",
+        "slug": "chandra-shekhar-1",
+        "image": "place_pictures/chandra-shekhar-azad-park/1.jpeg",
+        "height_field": 800,
+        "width_field": 1200,
+        "description": "Sky view of Chandra shekhar Azad Park"
+    }
+},
+{
+    "model": "TourismPlaces.image",
+    "pk": 53,
+    "fields": {
+        "tourism_place": 28,
+        "name": "Magh Mela Notice",
+        "slug": "magh-mela-notice",
+        "image": "place_pictures/magh/WhatsApp_Image_2017-12-07_at_8.28.00_PM.jpeg",
+        "height_field": 1280,
+        "width_field": 930,
+        "description": "Magh Mela Notice"
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 8,
+    "fields": {
+        "video": null,
+        "image": 18,
+        "name": "Allahabad Fort",
+        "slug": "allahabad-fort-patalpuri-temple",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "heritage, entertainment,front",
+        "location": "Allahabad Fort, Baand Marg, Allahabad fort, Allahabad, Uttar Pradesh",
+        "description": "The massive fort built by Emperor Akbar in 1583 A.D. stands on the banks of the Yamuna, close to the confluence site. In its prime, the fort was unrivalled for its design, construction and craftsmanship.\r\nThis huge, majestic fort has three magnificent galleries flanked by high towers. At present it is used by the army and only a limited area is open to visitors.\r\n\r\nThe magnificent outer wall is intact and rises above the water\u2019s edge. Visitors are allowed to see the Ashokan Pillar and Saraswati Koop, a well said to be the source of the Saraswati river and Jodhabai Palace. The gigantic Ashoka pillar of polished sandstone stands 10.6 meters high, dating back to 232 B.C. The pillar has several edicts and a Persian inscription of Emperor Jahangir inscripted on it, commemorating his accession to the throne.  - - - - - - - - -  - -                                                                                                                        Source - http://uptourism.gov.in       -  - - -  -  - - -                                    -                                                                                    \r\nfor more information visit -  http://jazztravels.com/places-to-visit-in-allahabad/"
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 9,
+    "fields": {
+        "video": null,
+        "image": 33,
+        "name": "Lord Hanuman Mandir",
+        "slug": "lord-hanuman-mandir",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "spiritual,front",
+        "location": "Near Triveni Sangam Allahabad-211004",
+        "description": "Near the Sangam, this temple is unique for its huge supine idol of Lord Hanuman in North India.Here the big idol of Lord Hanuman is seen in a reclining posture. When the Ganga is in spate, this temple gets submerged.- - - - - -source - http://uptourism.gov.in - - - - - - - \r\nThe Bade Hanumanji Mandir is a well-known temple in Allahabad. It has a large 20 feet long and 8 feet wide idol of Lord Hanuman in a reclining position. It is believed that the water of the river Ganges rises to touch the feet of the Lord Hanuman\u2019s idol. Being so large, the idol here is known as Sri Bade Hanuman of Prayag. A huge number of devotees come to Allahabad to visit this holy structure every year. It is said that in the past, the city had a rich trader who did not have a child. He made the massive structure and decided to bathe it at different places of pilgrimage. When he reached Prayag ( the erstwhile name for Allahabad), he dreamt at night that if he left it here, all his dreams would be fulfilled. His dreams were fulfilled and a son was born to him later. The submerged idol has ever since a part of Allahabad's heritage. - - - - - - -  - -  -source - https://www.yatra.com/india-tourism/attractions-in-allahabad/bade-hanuman-jee-temple , For more information - http://www.templeadvisor.com/temples-in-india/hindu-temples/allahabad-hanuman-temple"
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 10,
+    "fields": {
+        "video": null,
+        "image": null,
+        "name": "Patalpuri Temple",
+        "slug": "patalpuri-temple",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "spiritual",
+        "location": null,
+        "description": "Within this underground temple, inside the fort, lies the Akshaya Vat - or the immortal tree. Believed to have been visited by Lord Rama .  the temple was also seen by the famous Chinese traveler and writer Hiuen Tsang during his visit to this place."
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 11,
+    "fields": {
+        "video": null,
+        "image": null,
+        "name": "Aadi Shankar Viman Mandapam",
+        "slug": "aadi-shankar-viman-mandapam",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "spiritual",
+        "location": null,
+        "description": "This 130 feet high temple with four floors built in South Indian style has the idols of Kumaril Bhatt, Jagatguru Adi Shankaracharya, Kamakshi Devi , Tirupati Balaji and Yogsahastra Sahastrayoga Linga ."
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 12,
+    "fields": {
+        "video": null,
+        "image": 36,
+        "name": "Mankameshwar Temple",
+        "slug": "mankameshwar-temple",
+        "latitude": "25.4307278000",
+        "longitude": "81.8640350000",
+        "place_type": "spiritual",
+        "location": "Himmat Ganj, Kydgang, Allahabad, Uttar Pradesh 211003",
+        "description": "This ancient Lord Shiva Temple is picturesquely located near Saraswati Ghat on the bank of the river Yamuna . ----- source - http://uptourism.gov.in/ -------  For more infromation visit - http://www.allahabadonline.in/city-guide/mankameshwar-temple-allahabad"
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 15,
+    "fields": {
+        "video": null,
+        "image": null,
+        "name": "Aalop Shankari Shaktipeetha",
+        "slug": "aalop-shankari-shaktipeetha",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "spiritual",
+        "location": "Alopi Bagh, Allahabad, Uttar Pradesh 211006",
+        "description": "Alopi Devi Mandir is a temple situated in Alopibagh in Allahabad . It is near to the holy Sangam, or confluence, where the rivers Ganges, Yamuna and the legendary Sarasvati meet. Kumbh Mela is near to this place."
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 16,
+    "fields": {
+        "video": null,
+        "image": null,
+        "name": "Roop Gaudiya Matha",
+        "slug": "roop-gaudiya-matha",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "spiritual",
+        "location": "Near Phalwan Veer Baba, MG Marg, Tula Ram Bagh, Allahabad, Uttar Pradesh 211006",
+        "description": "Srila Prabhupada laid the foundation stone on 30th Oct., 1929 of Gaudiya Math on a vast land situated at the junction point of G.T. Road and Cunning Road near the Tribeni Sangam."
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 17,
+    "fields": {
+        "video": null,
+        "image": null,
+        "name": "Ganga Gallery",
+        "slug": "ganga-gallery",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "spiritual,heritage,monument",
+        "location": null,
+        "description": "The National Academy of Science, India established the Ganga Gallery in Allahabad to make people aware about the conservation and restoration of the Ganga."
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 19,
+    "fields": {
+        "video": null,
+        "image": 20,
+        "name": "Triveni Sangam",
+        "slug": "triveni-sangam",
+        "latitude": "25.4277304000",
+        "longitude": "81.8837431000",
+        "place_type": "spiritual,entertainment,front,magh_mela",
+        "location": "",
+        "description": "This is the point where the brown water of the Ganga meets the green water of the Yamuna, along with the mythical Saraswati, which remains unseen but believed to run underground.                                                                                      Religious Importance - Wide flood plains and muddy banks protrude towards the sacred Sangam. At the mid-river point priests perch on small platforms to perform puja and assist the devout in their ritual ablutions in the shallow waters. A dip in the Sangam water is supposed to be the holiest of the holy pilgrimages for the devout Hindu. Boats to the Sangam can be rented by pilgrims and tourists alike at the ghat near the fort.\r\n\r\nIt is during the Kumbh/Ardh Kumbh that the Sangam truly comes alive, attracting the devout from all across the country.                \r\n                                           \r\n                                        source - http://uptourism.gov.in and wikipedia"
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 20,
+    "fields": {
+        "video": null,
+        "image": 44,
+        "name": "Khusro Bagh",
+        "slug": "khusro-bagh",
+        "latitude": "25.4423006000",
+        "longitude": "81.8188424000",
+        "place_type": "entertainment,heritage,monument",
+        "location": "Lukarganj, Allahabad, Uttar Pradesh 211016",
+        "description": "Khusro Bagh is a large historical garden, in which tombs of Prince Khusro, the eldest son of Emperor Jahangir and Sultan Begum are located. The three sandstone mausoleums within this walled garden, represent an exquisite example of Mughal architecture. The design of its main entrance, the surrounding gardens and the three-tier tomb of Sultan Begum has been attributed to Aqa Reza, Jahangir\u2019s principal court artist.\r\n\r\nThe tomb has a large chhatri that surmounts the plinth and inscriptions that adorn her tomb. Next to the Begum's tomb is the tomb of Khusrau's sister, Nithar. However Nithar's mausoleum is empty and it does not contain her tomb within it. Architecturally, this is the most elaborate of the three. It lies on an elevated platform and is adorned with panels depicting the scalloped arch motif. Within the plinth are rooms, whose ceilings have been elaborately painted with stars in concentric circles. The central room has on its walls floral decorations depicting Persian cypresses, wine vessels, flowers and plants.\r\n\r\nThe tomb of Khusro is the last of the three tombs. Khusro was first imprisoned within the garden after he rebelled against his father Jahangir. He was killed in an attempt to escape on the orders of Khusro's brother and Jahangir's third son Khurram, who later became the Emperor Shah Jahan.\r\n- - - - source - http://uptourism.gov.in/pages/top/experience/khusro-bagh-explore - - - -"
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 21,
+    "fields": {
+        "video": null,
+        "image": null,
+        "name": "Swaraj Bhawan",
+        "slug": "swaraj-bhawan",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "entertainment,heritage,museum",
+        "location": "Swaraj Bhawan Road, Tagore Town, Allahabad, Uttar Pradesh 211002",
+        "description": "It is situated near Anand Bhawan .The old Anand Bhawan, was donated in 1930 to the Nation by Moti Lal Nehru, to be used as the headquarters of the Congress Committee . Closed on Mondays."
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 22,
+    "fields": {
+        "video": null,
+        "image": 17,
+        "name": "Anand Bhawan",
+        "slug": "anand-bhawan",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "entertainment,heritage,museum",
+        "location": "Near Balson Chauraha, Allahabad - Faizabad Road, Allahabad, Uttar Pradesh 211001",
+        "description": "The erstwhile ancestral home of the Nehru family has been turned into a fine museum.The main building houses a museum which displays the memorabilia of the Nehru family . Closed on Mondays and Government holidays."
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 23,
+    "fields": {
+        "video": null,
+        "image": 50,
+        "name": "Jawahar Planetarium",
+        "slug": "jawahar-planetarium",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "entertainment,museum,heritage",
+        "location": "Tagore Town, Allahabad, Uttar Pradesh 211002",
+        "description": "For a celestial trip of the scientific kind, visit the Planetarium.Jawahar Planetarium takes one on a celestial journey which makes the eyes twinkle like stars . The Jawahar Planetarium is located in the city of Allahabad in Uttar Pradesh, India. It was built in 1979 and is situated beside Anand Bhavan the former residence of the Nehru-Gandhi family and now a museum. It is managed by the 'Jawaharlal Nehru Memorial Fund' (estb. 1964), which has its headquarters at Teen Murti House, New Delhi.\r\nEach year, the prestigious 'Jawaharlal Nehru Memorial Lecture' is also held at the planetarium, organised under the auspices of Jawaharlal Nehru Memorial Fund on the birth anniversary of India's first prime minister, November 14 .\r\n Closed on Mondays and 4th Thursday of the month.\r\n \r\n                                source -  https://en.wikipedia.org/wiki/Jawahar_Planetarium"
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 24,
+    "fields": {
+        "video": null,
+        "image": null,
+        "name": "Bhardwaj Aashram",
+        "slug": "bhardwaj-aashram",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "spiritual",
+        "location": "Colonelganj, Colnel Ganj, George Town, Allahabad, Uttar Pradesh 211002",
+        "description": "Bharadwaja rishi also spelled Bhardwaj was one of the greatest Hindu sages (Maharshis) descendant of rishi Angirasa, whose accomplishments are detailed in the Puranas. He is one of the Saptarshis (Seven Great Sages Rishi) in the present Manvantara; with others being Atri, Vashishtha, Vishvamitra, Gautama, Jamadagni, Kashyapa. Bharadwaja Barhaspatya is the progenitor of the Bharadwaja family and the family is attributed as the composers of Mandala 6 of the Rig Veda. Mandala 6 is known as the Bharadwaja Family Book as all its 75 hymns are composed by a member of this family over several centuries. He is believed to be a contemporary of King Bharata. Bharadwaja and his descendants were respected and powerful priests/rishis of several clans/dynasties of the Puru tribe, such as the Bharatas and the Panchalas. Bhardwaj is the upper most caste among all brahmins. \r\n                     source - http://www.prayagdarshan.com/bharadwaj-ashram.html"
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 25,
+    "fields": {
+        "video": null,
+        "image": 38,
+        "name": "Someshwar Mahadev Temple",
+        "slug": "someshwar-mahadev-temple",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "spiritual",
+        "location": null,
+        "description": "Triveni Sangam, a religious centre in Allahabad is the confluence of the rivers the Ganga, the Yamuna and the mythical Saraswathi. This ancient Someshwar temple is also known as the Shivkoti Temple is located in this place.\r\n\r\nIn Naini village near Sangam on the banks of the River Yamuna opposite to Allahabad Fort. The Someshwar Mahadev temple is dedicated to lord Shiva. Here the lord is worshipped in the form of Ekadash Rudra, one of the seventeen forms of lord Shiva and is the most important of the eight gods of Prayag. Lord Moon has installed the idol here. There is also a small Hanuman temple. During the annual Magh Mela, Ardh Kumbh mela and Kumbh mela, the temple is visited by the many pilgrims.\r\n\r\nPilgrims consider Monday as auspicious day to pray to Someshwar Mahadev. It is built below the ground level inside the fort on the bank of the Yamuna. There is a long corridor and there are 44 idols in here with a Shivling in the center. It was renovated by Bajirao Peshwa in 1735, and some idols date back to 17th or 18th century. Legend has it that Lord Rama had come during his exile.  - - - - source - http://www.templeadvisor.com/temples-in-india/hindu-temples/someshwar-mahadev-temple - - - - for more infromation visit - https://www.ftd.travel/someshwar-mahadev-temple-attraction-allahabad"
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 26,
+    "fields": {
+        "video": null,
+        "image": 46,
+        "name": "New Yamuna Bridge",
+        "slug": "new-yamuna-bridge",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "entertainment,heritage,front",
+        "location": "",
+        "description": "The New Yamuna Bridge is a cable-stayed bridge located in Allahabad . The bridge was constructed by the end of 2004 with the aim of minimizing the traffic over the Old Naini Bridge. The bridge runs North-South across the Yamuna river connecting the city of Allahabad to its neighborhood of Naini. The construction was consulted by COWI A/S, a Danish consulting company \r\n- - - - source - https://en.wikipedia.org/wiki/New_Yamuna_Bridge - - -  \r\nOne of the oldest cities in India, Allahabad has witnessed an era of historic confluence and also is among the revered pilgrimage places in the country. Be it the magnanimous Allahabad Fort, the pious Triveni Sangam or the Chandrashekhar Azad Park, Allahabad has a long list of attractions for its visitors to explore. Yamuna Bridge is like a new feather in Allahabad\u2019s cap. The image speaks about the stupendous architecture of Yamuna Bridge. The view of the bridge during dawn and dusk is mesmerizing.\r\nAlso known as the Naini Bridge, the Yamuna Bridge is among India\u2019s longest cable-stayed bridges. It runs across the Yamuna River in the North-South direction, connecting Allahabad to the Naini district. It was constructed in the year 2004 to minimize the traffic congestions over the old Naini Bridge. The construction of the bridge was a joint responsibility of the Hindustan Construction Company and Hyundai Engineering and Construction. - - - - source - https://www.mapsofindia.com - - - -"
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 27,
+    "fields": {
+        "video": null,
+        "image": 51,
+        "name": "Chandra Shekhar Azad Park",
+        "slug": "chandra-shekhar-azad-park",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "entertainment,heritage,monument",
+        "location": "Georgetown in Allahabad, India",
+        "description": "Chandrasekhar Azad Park (British colonial era Alfred Park and informally Company Bagh) is a public park in Allahabad. Built in 1870 to mark Prince Alfred's visit to the city, with an area of 133 acres, it is the biggest park in Allahabad.[2][3] It was renamed after freedom fighter Chandra Shekhar Azad, who sacrificed his life here, during the Indian independence struggle in 1931. Originally and still famously the park is known as Alfred Park.\r\n                    source -  https://en.wikipedia.org/wiki/Alfred_Park \r\n                    for more infromation - https://www.happytrips.com/allahabad/chandrashekhar-azad-park/ps50353030.cms"
+    }
+},
+{
+    "model": "TourismPlaces.tourismplace",
+    "pk": 28,
+    "fields": {
+        "video": null,
+        "image": null,
+        "name": "Magh",
+        "slug": "magh",
+        "latitude": null,
+        "longitude": null,
+        "place_type": "magh_mela_main",
+        "location": "Sangam Allahabad",
+        "description": "Magh Mela is one of the most popular mela in happening in Prayag, Uttar Pradesh, India"
+    }
+},
+{
+    "model": "TourismPlaces.review",
+    "pk": 1,
+    "fields": {
+        "tourism_place": 19,
+        "user": [
+            "team"
+        ],
+        "post": "awesome place :)",
+        "date": "2017-12-23T18:02:12.114Z"
+    }
+},
+{
+    "model": "TourismPlaces.review",
+    "pk": 2,
+    "fields": {
+        "tourism_place": 19,
+        "user": [
+            "team"
+        ],
+        "post": "cool",
+        "date": "2017-12-23T18:04:03.131Z"
+    }
+},
+{
+    "model": "TourismPlaces.review",
+    "pk": 3,
+    "fields": {
+        "tourism_place": 9,
+        "user": [
+            "rajesh123@gmail.com"
+        ],
+        "post": "It was good to visit Hanuman Temple.",
+        "date": "2017-12-24T13:18:19.278Z"
+    }
+},
+{
+    "model": "TourismPlaces.review",
+    "pk": 4,
+    "fields": {
+        "tourism_place": 9,
+        "user": [
+            "rajesh123@gmail.com"
+        ],
+        "post": "awesome",
+        "date": "2017-12-24T13:29:05.062Z"
+    }
+},
+{
+    "model": "TourismPlaces.review",
+    "pk": 5,
+    "fields": {
+        "tourism_place": 19,
+        "user": [
+            "soorajmall1996@gmail.com"
+        ],
+        "post": "this is the best i have ever seen.",
+        "date": "2018-01-15T05:08:32.936Z"
+    }
+},
+{
+    "model": "TourismPlaces.review",
+    "pk": 6,
+    "fields": {
+        "tourism_place": 8,
+        "user": [
+            "soorajmall1996@gmail.com"
+        ],
+        "post": "many different thing is there , one should must see in allahabad fort .",
+        "date": "2018-01-17T04:00:05.377Z"
+    }
+},
+{
+    "model": "Users.profile",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "root"
+        ],
+        "gender": null,
+        "image": "",
+        "height_field": 450,
+        "width_field": 350
+    }
+},
+{
+    "model": "Users.profile",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "suraj"
+        ],
+        "gender": null,
+        "image": "",
+        "height_field": 450,
+        "width_field": 350
+    }
+},
+{
+    "model": "Users.profile",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "team"
+        ],
+        "gender": null,
+        "image": "",
+        "height_field": 450,
+        "width_field": 350
+    }
+},
+{
+    "model": "Users.profile",
+    "pk": 8,
+    "fields": {
+        "user": [
+            "7275036250"
+        ],
+        "gender": null,
+        "image": "",
+        "height_field": 450,
+        "width_field": 350
+    }
+},
+{
+    "model": "Users.profile",
+    "pk": 9,
+    "fields": {
+        "user": [
+            "rajesh123@gmail.com"
+        ],
+        "gender": null,
+        "image": "",
+        "height_field": 450,
+        "width_field": 350
+    }
+},
+{
+    "model": "Users.profile",
+    "pk": 10,
+    "fields": {
+        "user": [
+            "soorajmall1996@gmail.com"
+        ],
+        "gender": "",
+        "image": "profile_pictures/suraj.jpg",
+        "height_field": 448,
+        "width_field": 434
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2017-12-10T18:12:50.345Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "1",
+        "object_repr": "Sangam",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2017-12-10T18:25:54.841Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "1",
+        "object_repr": "Sangam",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2017-12-10T18:29:14.643Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "2",
+        "object_repr": "Sangam",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2017-12-10T20:13:26.156Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "2",
+        "object_repr": "Sangam",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"latitude\", \"longitude\", \"place_type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2017-12-10T20:13:47.878Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "2",
+        "object_repr": "Sangam",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2017-12-10T20:15:36.032Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "3",
+        "object_repr": "Kalyani Devi Temple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2017-12-10T20:16:52.993Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "4",
+        "object_repr": "Naini Bridge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2017-12-10T20:26:04.308Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "5",
+        "object_repr": "Khusro Bag",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2017-12-10T20:40:20.056Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "6",
+        "object_repr": "Lalita Devi Temple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2017-12-10T20:43:29.025Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "1",
+        "object_repr": "Lalita Devi Temple Image",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2017-12-10T20:44:34.673Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "2",
+        "object_repr": "Sunrise @Sangam",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2017-12-10T20:45:29.658Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "3",
+        "object_repr": "Sangam Saint",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2017-12-10T20:47:13.459Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "4",
+        "object_repr": "flying Bird at Khusro Bag",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2017-12-10T20:48:22.067Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "5",
+        "object_repr": "Running Naini",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2017-12-10T20:49:01.220Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "6",
+        "object_repr": "Lightening Naini",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2017-12-10T20:52:20.597Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "7",
+        "object_repr": "Alfred Park",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2017-12-10T20:53:55.458Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "7",
+        "object_repr": "Alfred Park",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2017-12-10T20:54:48.920Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "8",
+        "object_repr": "Inspired Guys @Alfred Park",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2017-12-10T20:55:44.550Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "9",
+        "object_repr": "House at Park",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2017-12-10T20:56:58.487Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "10",
+        "object_repr": "Associate Officer House",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2017-12-10T20:58:40.454Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "video"
+        ],
+        "object_id": "1",
+        "object_repr": "Floating Naini",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2017-12-10T20:59:13.292Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "video"
+        ],
+        "object_id": "2",
+        "object_repr": "Floating Khusro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2017-12-10T21:06:35.710Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "7",
+        "object_repr": "Alfred Park",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2017-12-10T21:06:47.001Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "6",
+        "object_repr": "Lalita Devi Temple",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2017-12-10T21:07:06.302Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "5",
+        "object_repr": "Khusro Bag",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2017-12-10T21:07:22.752Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "4",
+        "object_repr": "Naini Bridge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2017-12-10T21:08:37.874Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "11",
+        "object_repr": "Kalyani Devi Entrance",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2017-12-10T21:09:15.813Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "12",
+        "object_repr": "Maa Kalyani",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2017-12-10T21:09:50.036Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "13",
+        "object_repr": "History of Kalyani Devi temple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2017-12-10T21:10:55.473Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "14",
+        "object_repr": "A Big Gate at Kalyani Devi temple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2017-12-10T21:13:35.902Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "14",
+        "object_repr": "A Big Gate at Kalyani Devi temple",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"height_field\", \"width_field\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2017-12-10T21:14:22.471Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "15",
+        "object_repr": "Lalita Devi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2017-12-10T21:15:44.060Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "2",
+        "object_repr": "Sangam",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2017-12-10T21:16:08.189Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "3",
+        "object_repr": "Kalyani Devi Temple",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2017-12-10T21:34:04.751Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "7",
+        "object_repr": "Alfred Park",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2017-12-11T06:29:12.191Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort Patalpuri Temple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2017-12-11T06:47:46.158Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "2",
+        "object_repr": "Sangam",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2017-12-11T06:51:26.857Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "2",
+        "object_repr": "Triveni Sangam",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\", \"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2017-12-11T06:55:20.491Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "2",
+        "object_repr": "Triveni Sangam",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2017-12-11T06:57:48.616Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort Patalpuri Temple",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2017-12-11T07:00:45.075Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort Patalpuri Temple",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2017-12-11T07:07:01.463Z",
+        "user": [
+            "root"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "9",
+        "object_repr": "Lord Hanuman Mandir",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2017-12-11T07:53:43.945Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "9",
+        "object_repr": "Lord Hanuman Mandir",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2017-12-11T07:55:58.822Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\", \"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2017-12-11T07:59:38.036Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2017-12-11T08:17:08.675Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "10",
+        "object_repr": "Patalpuri Temple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2017-12-11T08:20:17.495Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "11",
+        "object_repr": "Aadi Shankar Viman Mandapam",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2017-12-11T08:24:29.333Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "12",
+        "object_repr": "Mankameshwar Temple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2017-12-11T08:27:16.276Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "13",
+        "object_repr": "Mankameshwar Temple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2017-12-11T08:27:50.356Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "13",
+        "object_repr": "Mankameshwar Temple",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2017-12-11T08:46:14.585Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "13",
+        "object_repr": "Khusarobag",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2017-12-11T08:46:33.557Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "14",
+        "object_repr": "Khusarobag",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2017-12-11T08:46:47.128Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "14",
+        "object_repr": "Khusarobag",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2017-12-11T08:54:16.292Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "15",
+        "object_repr": "Aalop Shankari Shaktipeetha",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2017-12-11T08:58:11.692Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "16",
+        "object_repr": "Roop Gaudiya Matha",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2017-12-11T08:58:16.948Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "16",
+        "object_repr": "Roop Gaudiya Matha",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2017-12-11T09:30:53.427Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "17",
+        "object_repr": "Ganga Gallery",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2017-12-11T09:37:13.812Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "18",
+        "object_repr": "Swaraj Bhawan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2017-12-11T09:40:39.549Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "5",
+        "object_repr": "Khusro Bagh",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\", \"location\", \"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2017-12-11T09:41:17.296Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "13",
+        "object_repr": "Khusarobag",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2017-12-11T09:49:13.302Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "18",
+        "object_repr": "Swaraj Bhawan",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2017-12-11T09:50:07.500Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "18",
+        "object_repr": "Swaraj Bhawan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2017-12-11T10:10:46.042Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "15",
+        "object_repr": "Lalita Devi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2017-12-11T10:10:46.164Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "14",
+        "object_repr": "A Big Gate at Kalyani Devi temple",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2017-12-11T10:10:46.253Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "13",
+        "object_repr": "History of Kalyani Devi temple",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2017-12-11T10:10:46.364Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "12",
+        "object_repr": "Maa Kalyani",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2017-12-11T10:10:46.444Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "11",
+        "object_repr": "Kalyani Devi Entrance",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2017-12-11T10:10:46.519Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "10",
+        "object_repr": "Associate Officer House",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2017-12-11T10:10:46.619Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "9",
+        "object_repr": "House at Park",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2017-12-11T10:10:46.695Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "8",
+        "object_repr": "Inspired Guys @Alfred Park",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2017-12-11T10:10:46.785Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "7",
+        "object_repr": "Alfred Park",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2017-12-11T10:10:46.898Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "6",
+        "object_repr": "Lightening Naini",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2017-12-11T10:10:46.973Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "5",
+        "object_repr": "Running Naini",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2017-12-11T10:10:47.072Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "4",
+        "object_repr": "flying Bird at Khusro Bag",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2017-12-11T10:10:47.161Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "3",
+        "object_repr": "Sangam Saint",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2017-12-11T10:10:47.260Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "2",
+        "object_repr": "Sunrise @Sangam",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2017-12-11T10:10:47.349Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "1",
+        "object_repr": "Lalita Devi Temple Image",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2017-12-11T10:12:50.555Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "16",
+        "object_repr": "Allahabad Fort",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2017-12-11T10:14:34.614Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "video"
+        ],
+        "object_id": "3",
+        "object_repr": "jhd jsjh sjhdf jsf",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2017-12-11T10:15:13.210Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "video"
+        ],
+        "object_id": "3",
+        "object_repr": "jhd jsjh sjhdf jsf",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2017-12-11T10:15:46.414Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "16",
+        "object_repr": "Allahabad Fort",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2017-12-11T10:19:14.912Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "10",
+        "object_repr": "Patalpuri Temple",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2017-12-11T10:25:58.068Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "19",
+        "object_repr": "Triveni Sangam",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2017-12-11T10:31:27.023Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "20",
+        "object_repr": "Khusro Bagh",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2017-12-11T10:32:34.117Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "20",
+        "object_repr": "Khusro Bagh",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2017-12-11T10:36:28.305Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "21",
+        "object_repr": "Swaraj Bhawan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2017-12-11T10:41:10.738Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "22",
+        "object_repr": "Anand Bhawan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2017-12-11T10:44:58.006Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "23",
+        "object_repr": "Jawahar Planetarium",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2017-12-11T10:45:52.951Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "23",
+        "object_repr": "Jawahar Planetarium",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2017-12-11T10:46:07.617Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "22",
+        "object_repr": "Anand Bhawan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2017-12-11T10:46:19.820Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "21",
+        "object_repr": "Swaraj Bhawan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"place_type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2017-12-11T10:47:26.906Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "21",
+        "object_repr": "Swaraj Bhawan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2017-12-11T10:51:49.163Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "9",
+        "object_repr": "Lord Hanuman Mandir",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2017-12-11T11:05:48.168Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "10",
+        "object_repr": "Patalpuri Temple",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2017-12-11T11:29:06.510Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "24",
+        "object_repr": "Bhardwaj Aashram",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2017-12-11T11:41:40.955Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "17",
+        "object_repr": "Anand bhawan front",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2017-12-11T11:42:10.014Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "22",
+        "object_repr": "Anand Bhawan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2017-12-11T11:45:12.889Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "18",
+        "object_repr": "Allahabad fort sky",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2017-12-11T11:45:52.989Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2017-12-11T16:55:56.203Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "19",
+        "object_repr": "Triveni Sangam",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2017-12-11T16:57:45.733Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "19",
+        "object_repr": "Triveni Sangam",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2017-12-11T16:59:38.459Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "19",
+        "object_repr": "Triveni Sangam",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2017-12-11T17:01:10.630Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "19",
+        "object_repr": "Sangam front",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2017-12-11T17:01:29.835Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "19",
+        "object_repr": "Triveni Sangam",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2017-12-11T17:04:10.362Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "20",
+        "object_repr": "Sanagam 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2017-12-11T17:14:58.351Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "21",
+        "object_repr": "Sanagam 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2017-12-11T17:27:45.384Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "22",
+        "object_repr": "Sanagam 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2017-12-11T17:30:36.949Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "23",
+        "object_repr": "Sanagam 5",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2017-12-11T17:33:28.896Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "24",
+        "object_repr": "Sanagam 6",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2017-12-11T17:34:52.184Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "25",
+        "object_repr": "Sanagam 7",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2017-12-11T17:35:41.060Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "26",
+        "object_repr": "Sanagam 8",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2017-12-11T17:36:34.105Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "27",
+        "object_repr": "Sanagam 9",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2017-12-11T17:48:27.220Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "28",
+        "object_repr": "Sanagam 10",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2017-12-11T17:54:07.131Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2017-12-11T17:55:32.031Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "29",
+        "object_repr": "fort 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2017-12-11T17:56:56.115Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "29",
+        "object_repr": "fort 2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2017-12-11T17:57:38.833Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "30",
+        "object_repr": "fort 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2017-12-11T18:04:01.669Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "31",
+        "object_repr": "fort 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2017-12-11T18:06:18.671Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2017-12-11T18:08:07.824Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"location\", \"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2017-12-11T18:09:00.787Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2017-12-11T18:12:11.741Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2017-12-11T18:27:18.192Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "9",
+        "object_repr": "Lord Hanuman Mandir",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2017-12-11T18:33:28.553Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "32",
+        "object_repr": "hanuman front",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2017-12-11T18:33:59.943Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "9",
+        "object_repr": "Lord Hanuman Mandir",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2017-12-11T18:57:23.086Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "33",
+        "object_repr": "hanuman 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2017-12-11T19:02:00.274Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "34",
+        "object_repr": "hanuman 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2017-12-11T19:03:34.337Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "9",
+        "object_repr": "Lord Hanuman Mandir",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2017-12-11T19:06:17.024Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "35",
+        "object_repr": "hanuman 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2017-12-11T19:33:05.481Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "12",
+        "object_repr": "Mankameshwar Temple",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2017-12-11T19:35:56.211Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "36",
+        "object_repr": "Mankameshwar front",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2017-12-11T19:36:29.620Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "37",
+        "object_repr": "Mankameshwar 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2017-12-11T19:37:29.309Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "12",
+        "object_repr": "Mankameshwar Temple",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2017-12-11T19:39:00.171Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "37",
+        "object_repr": "Mankameshwar 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2017-12-11T19:48:22.736Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "25",
+        "object_repr": "Someshwar Mahadev Temple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2017-12-11T19:49:50.456Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "25",
+        "object_repr": "Someshwar Mahadev Temple",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2017-12-11T19:52:45.701Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "38",
+        "object_repr": "Someshwar front",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2017-12-11T19:53:36.565Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "39",
+        "object_repr": "Someshwar 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2017-12-11T19:54:43.809Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "25",
+        "object_repr": "Someshwar Mahadev Temple",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2017-12-11T19:56:44.539Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "40",
+        "object_repr": "Someshwar 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2017-12-11T20:10:04.999Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "20",
+        "object_repr": "Khusro Bagh",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2017-12-11T20:13:33.438Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "41",
+        "object_repr": "Khusro front",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2017-12-11T20:14:14.220Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "42",
+        "object_repr": "Khusro1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2017-12-11T20:14:58.136Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "43",
+        "object_repr": "Khusro 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2017-12-11T20:15:17.886Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "20",
+        "object_repr": "Khusro Bagh",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2017-12-11T20:17:16.555Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "44",
+        "object_repr": "Khusro 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2017-12-11T20:19:14.522Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "45",
+        "object_repr": "Khusro 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2017-12-11T20:20:14.126Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "20",
+        "object_repr": "Khusro Bagh",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2017-12-11T20:29:06.602Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "26",
+        "object_repr": "New Yamuna Bridge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2017-12-11T20:30:10.595Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "46",
+        "object_repr": "naini front",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2017-12-11T20:30:47.966Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "26",
+        "object_repr": "New Yamuna Bridge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2017-12-11T20:32:44.324Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "47",
+        "object_repr": "naini 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2017-12-11T20:33:33.708Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "48",
+        "object_repr": "naini 3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+        "action_time": "2017-12-11T20:34:24.561Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "49",
+        "object_repr": "naini 4",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+        "action_time": "2017-12-11T20:37:48.787Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "26",
+        "object_repr": "New Yamuna Bridge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+        "action_time": "2017-12-12T07:26:33.476Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "23",
+        "object_repr": "Jawahar Planetarium",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+        "action_time": "2017-12-12T07:31:20.700Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "23",
+        "object_repr": "Jawahar Planetarium",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+        "action_time": "2017-12-12T07:38:05.611Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "50",
+        "object_repr": "Jawahar Planetarium front",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+        "action_time": "2017-12-12T07:38:44.335Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "23",
+        "object_repr": "Jawahar Planetarium",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+        "action_time": "2017-12-12T07:48:15.377Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "27",
+        "object_repr": "Chandra Shekhar Azad Park",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+        "action_time": "2017-12-12T07:50:14.223Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "51",
+        "object_repr": "Chandra Shekhar front",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+        "action_time": "2017-12-12T07:51:30.052Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "52",
+        "object_repr": "Chandra Shekhar 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+        "action_time": "2017-12-12T07:51:48.455Z",
+        "user": [
+            "suraj"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "27",
+        "object_repr": "Chandra Shekhar Azad Park",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+        "action_time": "2017-12-23T12:15:23.766Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "19",
+        "object_repr": "Triveni Sangam",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"place_type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+        "action_time": "2017-12-23T12:15:39.709Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "8",
+        "object_repr": "Allahabad Fort",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"place_type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+        "action_time": "2017-12-23T12:16:04.297Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "26",
+        "object_repr": "New Yamuna Bridge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"place_type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+        "action_time": "2017-12-23T12:16:38.123Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "9",
+        "object_repr": "Lord Hanuman Mandir",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"place_type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+        "action_time": "2017-12-23T13:01:20.427Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "33",
+        "object_repr": "hanuman front",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+        "action_time": "2017-12-23T13:01:37.267Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "32",
+        "object_repr": "hanuman 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+        "action_time": "2017-12-23T13:02:01.745Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "9",
+        "object_repr": "Lord Hanuman Mandir",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+        "action_time": "2017-12-23T13:04:31.336Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "19",
+        "object_repr": "Triveni Sangam",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+        "action_time": "2017-12-23T13:42:44.707Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "35",
+        "object_repr": "hanuman 3",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+        "action_time": "2017-12-24T07:23:11.632Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "7275036250",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+        "action_time": "2017-12-24T07:23:11.649Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "7905915393",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+        "action_time": "2017-12-24T07:23:11.652Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "depak_bharti",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+        "action_time": "2017-12-24T07:23:11.654Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "7",
+        "object_repr": "test@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+        "action_time": "2017-12-24T14:19:58.109Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "28",
+        "object_repr": "Magh",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+        "action_time": "2017-12-24T14:22:34.362Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "19",
+        "object_repr": "Triveni Sangam",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"place_type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 179,
+    "fields": {
+        "action_time": "2017-12-24T14:24:17.519Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "image"
+        ],
+        "object_id": "53",
+        "object_repr": "Magh Mela Notice",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 180,
+    "fields": {
+        "action_time": "2017-12-24T14:27:02.424Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "TourismPlaces",
+            "tourismplace"
+        ],
+        "object_id": "28",
+        "object_repr": "Magh",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"place_type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 181,
+    "fields": {
+        "action_time": "2018-01-17T16:02:31.450Z",
+        "user": [
+            "team"
+        ],
+        "content_type": [
+            "Users",
+            "profile"
+        ],
+        "object_id": "10",
+        "object_repr": "soorajmall1996@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+}
+]

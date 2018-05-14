@@ -1,0 +1,29 @@
+Anand Bhawan 25.459376,81.8577928
+Company Garden gate 1
+25.4544371,81.843449
+New naini bridge
+25.4267393, 81.8591848
+Cathedral church
+25.4512874, 81.8244274
+
+Kalyani Devi mandir
+25.430949, 81.833894
+Lalita devi temple
+25.4309487, 81.8262335
+Balua ghat
+25.4211522, 83.182222
+Mankameshwar temple
+25.4307278, 81.864035
+Old yamuna bridge
+25.4259356, 81.847408
+Khusro Bagh
+25.4423006, 81.8188424
+Parila Mahadev
+25.5467636, 81.8926477
+
+Sangam 25.4277304, 81.8837431
+Bade hanuman mandir
+25.4335333, 81.8769648
+Someshwar mahadev
+25.4085566, 81.8911618
+

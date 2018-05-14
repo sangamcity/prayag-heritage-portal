@@ -1,0 +1,72 @@
+{% load staticfiles %}
+{% load i18n %}
+
+
+{% block extra_head %}
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="{% static 'css/style2.css' %}" rel="stylesheet">
+	<link href="{% static 'css/icon.css' %}" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+{% endblock extra_head %}
+
+
+{% block main_content %}
+
+<div class="wrapper">
+	
+		<a href="{% url 'home' %}" class="pull-right" style="margin: 20px; background-color:white; ">{% trans 'Home' %}
+		</a>
+	
+
+	<div class="logo">
+		<img src="{% static 'images/logo2.png' %}" alt="Booking Ticket coming soon "> 
+	</div>
+	<h1>{% trans 'Coming soon!' %}</h1>
+	<h2>{% trans 'Be ready for the thrill !!' %}</h2>
+	<!-- <ul class="countdown">
+		<li>
+			<span class="days">{{days}}</span>
+			<p class="days_ref">days</p>
+		</li>
+		<li>
+			<span class="hours">{{hours}}</span>
+			<p class="hours_ref">hours</p>
+		</li>
+		<li>
+			<span class="minutes">{{minutes}}</span>
+			<p class="minutes_ref">minutes</p>
+		</li>
+		<li>
+			<span class="seconds">{{seconds}}</span>
+			<p class="seconds_ref">seconds</p>
+		</li>
+	</ul> -->
+	<ul class="social">
+		<li><a href=""><i class="icon-facebook"></i></a></li>
+		<li><a href=""><i class="icon-twitter-1"></i></a></li>
+		<li><a href=""><i class="icon-behance"></i></a></li>
+		<li><a href=""><i class="icon-dribbble-1"></i></a></li>
+		<li><a href=""><i class="icon-pinterest-circled"></i></a></li>
+		<li><a href=""><i class="icon-gplus-1"></i></a></li>
+
+	</ul>
+	<div class="copyright">
+		<p><a href="{%url 'home' %}" target="_blank">{% trans 'Prayag Heritage 
+		Portal' %}</a></p>
+	</div>
+</div>
+
+
+{% endblock main_content %}
+
+
+
+
+{% block extra_js %}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="{% static 'js/jquery.downCount.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/app.js' %}"></script>
+{% endblock extra_js %}
+
+
+

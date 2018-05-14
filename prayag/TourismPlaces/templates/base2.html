@@ -1,0 +1,48 @@
+{% load staticfiles %}
+
+<html>
+
+<head>
+	    <link rel="manifest" href="manifest.json"></link>
+
+  <script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+  <script>
+               function initElement() {
+                 var navVR = document.getElementById("navigate");
+                 navVR.onclick = navigate;
+        
+               function navigate() {
+                 window.location.href = "http://www.naver.com";
+               
+  </script>
+</head>
+
+<body onload="initElement();">
+  <main>
+    <div>
+      <a-scene inspector="url: https://aframe.io/releases/0.3.0/aframe-inspector.min.js">
+        <a-assets>
+          <img id="sphereTexture" color="#fff">
+          <img id="skyTexture" src="https://raw.githubusercontent.com/hskang9/WebVR/master/web/static/photos/hacking-room1.jpg" rotation="0 -130 0">
+        </a-assets>
+        <a-sphere id="navigate" color="#FFF" width="2" height="2" depth="2" position="20 2 -10" rotation="0 0 45" scale="2 2 2" src="#sphereTexture">
+          <a-animation attribute="position" to="20 2.2 -10" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+          <!-- 커서가 오브젝트를 가리킬 때 애니메이션-->
+          <a-animation attribute="scale" begin="mouseenter" dur="300" to="2.3 2.3 2.3"></a-animation>
+          <a-animation attribute="scale" begin="mouseleave" dur="300" to="2 2 2"></a-animation>
+        </a-sphere>
+        <a-sky src="#skyTexture"></a-sky>
+        <div class="a-exit-vr" aframe-injected="" style="display: block;"><button class="a-enter-vr-button" aframe-injected=""></button></div>
+        <a-camera>
+          <a-cursor></a-cursor>
+        </a-camera>
+      </a-scene>
+    </div>
+  </main>
+
+  <body>
+
+</html>
+    {% block content %}
+
+    {% endblock content %}

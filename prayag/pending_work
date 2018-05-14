@@ -1,0 +1,17 @@
+
+
+
+
+fix issues on__
+
+1.password reset page.    solution(just remove the change password div)
+2.Feedback page			  solution(need to reposition the things)
+3.Acknowledgement page	  -----
+4.Comming_soon			   just remove assets in static path in included css etc
+5.weather_info             just remove assets in static path in included css etc
+6.optimal distances 	   just remove assets in static path in included css etc
+7.explore(spiritual etc) always opening as its in mobile mode    ---working fine in local
+
+
+
+8. all images & all videos .. issue in background image

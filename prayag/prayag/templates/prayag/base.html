@@ -1,0 +1,150 @@
+{% load staticfiles %}
+{% load i18n %}
+<!DOCTYPE html>   
+<html>
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<meta name="description" content="The website presents beautiful monuments, museums, and other heritage places at Allahabad.">
+
+	<meta name="author" content="Mnnit Web Team">
+
+	<meta name="keywords" content="Allahabad, Prayag, Tourism, Magh mela, Kumbh Mela, Fair, Sangam, Ananad Bhavan, Heritage, Naini Bridge, Company Bagh">
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="{% static 'icons/tab_icon.png' %}">   
+
+	<title>
+		{% block title %}  
+		{% trans 'Prayag Tourism' %}
+		{% endblock %} 
+	</title>   
+
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+	</script>
+
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"url": "domain",
+		"logo": "logo_image", 
+		"contactPoint": [
+		{ "@type": "ContactPoint",
+		"telephone": "sdm_phone_no",
+		"contactType": "Phone"
+	}
+	],
+	"sameAs": [
+	"facebook_link",
+	"quora_link",
+	"twitter_link",
+	]
+}
+</script>
+
+{% include 'prayag/head_css.html' %}
+
+<style type="text/css">
+/*body {
+	background-image:url("{% static 'img/background.gif' %}");
+	background-color: #080800;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:100%;"
+}*/
+body {
+	
+	background: url("{% static 'img/background.gif' %}") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/*font-family: Verdana, Geneva, sans-serif;*/
+	/*font-size: 12px;*/
+}
+
+	/*	.same_size {
+		max-width: 300px; max-height: 300px;
+		min-width: 300px; min-height: 300px;
+		}*/
+
+		</style>
+
+		<!-- put page specific css files in extra_head block -->
+		{% block extra_head %}
+		{% endblock extra_head %}
+
+	</head>
+
+	<body>
+
+		{% block extra_navbar %} <!-- This goes above navbar and logoline --> {% endblock extra_navbar %}
+
+		{% include 'logoline.html' %}
+		{% include 'navbar.html' %}
+
+		<br><br>
+
+		<div class="container">
+			{% block main_content %}
+
+			{% endblock main_content %}
+		</div>
+
+		<div class="container-fluid">
+			{% block main_content_fluid %}
+			{% endblock main_content_fluid %}	
+		</div>
+
+
+		{% include 'footer.html' %}        
+
+		<!-- JS -->
+		<script type="text/javascript" src="{% static 'js/scripts.js' %}" type="text/javascript"></script>
+		<!-- Isotope - Portfolio Sorting -->
+		<script type="text/javascript" src="{% static 'js/jquery.isotope.js' %}" type="text/javascript"></script>
+		<!-- Mobile Menu - Slicknav -->
+		<script type="text/javascript" src="{% static 'js/jquery.slicknav.js' %}" type="text/javascript"></script>
+		<!-- Animate on Scroll-->
+		<script type="text/javascript" src="{% static 'js/jquery.visible.js' %}" charset="utf-8"></script>
+		<!-- Sticky Div -->
+		<script type="text/javascript" src="{% static 'js/jquery.sticky.js' %}" charset="utf-8"></script>
+		<!-- Slimbox2-->
+		<script type="text/javascript" src="{% static 'js/slimbox2.js' %}" charset="utf-8"></script>
+		<!-- Modernizr -->
+		<script src="{% static 'js/modernizr.custom.js' %}" type="text/javascript"></script>
+
+		<!-- for ToolTips -->
+		<script src="{% static 'js/tipped/tipped.js' %}" type="text/javascript"></script> 
+
+		<!-- Provides gui for typeahead and other ui related things -->
+		<script src="{% static 'jquery/jqueryui.js' %}" type="text/javascript"></script>
+		<!-- For Typeahead -->	
+		<script src="{% static 'jquery/jquery.typeahead.bundle.js' %}" type ="text/javascript"></script>
+
+		<!-- For typing Animation need this typeit.min.js -->
+		<script type="text/javascript" src="{% static 'js/typeit.min.js' %}" type="text/javascript"></script>
+
+		<script src="{% static 'jquery/jquery.bullseye-1.0-min.js' %}" type="text/javascript"></script>
+		<!-- End JS -->
+
+		<!-- put page specific js files in extra_js block -->
+		<script type="text/javascript">
+		Tipped.create('#to','Search for museums, monuments, heritage places and other tourism places in Allahabad',{position : 'top'});
+		</script>
+
+		{% block extra_js %}
+		{% endblock extra_js %}
+
+	</body>
+	</html>

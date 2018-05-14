@@ -1,0 +1,93 @@
+{% load staticfiles %}
+{% load i18n %}
+<!doctype html>
+<html>
+<head>
+  <title> Weather </title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="{% static 'css/GoogleWeather.css'%}">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+  <!-- <script src="{% static '/assets/js/scripts.js' %}"></script> -->
+  <script type="text/javascript"> 
+    $(document).ready(function() {
+
+      var searchReq = $.get("/sendWeatherRequest/Allahabad");
+      searchReq.done(function(data){
+      if(data.weather != "Rain" && data.weather != "Clouds"){
+          if(data.temp < 20)
+            data.weather = "winter";
+          else
+            data.weather = "summer";
+      } 
+      updateWeather(data.weather, "Allahabad", parseFloat(data.temp).toFixed(2), data.others);
+      });
+      $("#search").click(function() {
+        var searchReq = $.get("/sendWeatherRequest/" + $("#query").val());
+        searchReq.done(function(data){
+          if(data.weather != "Rain" && data.weather != "Clouds"){
+              if(data.temp < 20)
+                data.weather = "winter";
+              else
+                data.weather = "summer";
+          }
+          // others: pressure humidity windspeed
+          updateWeather(data.weather, $("#query").val(), parseFloat(data.temp).toFixed(2), data.others);
+        });
+      });
+    });  
+  </script>
+
+  <script type="text/javascript">
+    function updateWeather(weather, place, temperature, others) {
+      arr = others.split(" ");
+      document.getElementById("place").innerHTML = place + ", India.";
+      document.getElementById("pressure").innerHTML = "Pressure: " + arr[0];
+      document.getElementById("humidity").innerHTML = "Humidity: " + arr[1];
+      document.getElementById("wind_speed").innerHTML = "Wind Speed: " + arr[2];
+      document.getElementById("temperature").innerHTML = temperature + " C.";
+      if (weather === "Clouds") {
+        document.getElementById("weatherinfo").style.backgroundImage = "url('https://images.unsplash.com/photo-1502623547075-299b5ba76c53?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D')";
+      }
+      if (weather === "Rain") {
+        document.getElementById("weatherinfo").style.backgroundImage = "url('https://images.unsplash.com/photo-1511727170646-694750f8b3a6?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D')";
+      }
+      if (weather === "summer") {
+        document.getElementById("weatherinfo").style.backgroundImage = "url('https://images.unsplash.com/photo-1487349384428-12b47aca925e?auto=format&fit=crop&w=1050&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D')";
+      }
+      if (weather === "winter") {
+        document.getElementById("weatherinfo").style.backgroundImage = "url('https://images.unsplash.com/photo-1478025230397-1f44066c235b?auto=format&fit=crop&w=1053&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D')";
+      }
+    }
+  </script>
+</head>
+<!-- <body background-repeat:no-repeat; background-size:cover;" background = "{% static 'assets/img/naini.jpg' %}"> -->
+  <body>
+
+    <div id="weatherinfo">
+    <a href="{% url 'home' %}" style="background-color: white; font-size: 20px;">
+      <i class="fa fa-home fa-1x"></i>{% trans 'Home' %}
+    </a>
+      <div id="contactform">
+        <form class="search-container">
+          <input type="text" id="query" placeholder="Search for city weather (India) !!!" style="font-size: 15px; width: 520px;">
+          <a href="#" id="search"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+        </form>
+      </div>
+
+      <div id="display_details">
+        <h1 id="place">Allahabad, India</h1>
+        <h2 id="temperature">21 C</h2>
+        <h2 id="pressure">21 C</h2>
+        <h2 id="humidity">21 C</h2>
+        <h2 id="wind_speed">21 C</h2>
+        <small></small>
+      </div>
+    </div>
+
+  </body>
+</html>

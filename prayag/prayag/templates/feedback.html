@@ -1,0 +1,126 @@
+{% extends "prayag/base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block extra_head %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/common.css' %}">
+<style type="text/css">
+.color-red, .red {color: red;}
+.input-width { width: 60% }
+
+.welcome_text {
+  font-family: FontAwesome;
+  margin-top: 3em;
+  font-size: 2em;
+  color: white;
+}
+</style>
+{% endblock extra_head %}
+
+
+{% block main_content %}
+
+<div class="col col-md-6 col-md-offset-3">
+      {% if messages %}
+        {% for message in messages %}
+          <div class="alert alert-success alert-dismissable center">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            {{ message }} 
+          </div>
+        {% endfor %}
+      {% endif %}
+</div>
+ 
+<div id="content">
+  <div class="background-white">
+
+    <div class="row">
+      <br><br>
+      <div class="col col-md-6 col-md-offset-3">
+        <div class="headline">
+          <h2 class="text-center" style="text-decoration: underline;">{% trans 'FeedBack Form' %}</h2>
+        </div>
+        <p>{% trans 'Please provide your valuable feedback, It may be a suggestion or a complaint of any type.' %} </p>
+        <br>
+        <!-- Contact Form -->
+        <form action="{% url 'feedback' %}" method="post" style="">
+          {% csrf_token %} 
+          <table>    
+            <tr>
+              <td>
+                <label>{% trans 'Name' %}
+                  <span class="color-red">*</span></label>
+                  <div class="row margin-bottom-20">
+                    <div class="col-md-6 col-md-offset-0">
+                      <input name = "name" class="form-control" type="text" required>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <label style="margin-left:70px;">{% trans 'Email' %}
+                    <span class="color-red">*</span>
+                  </label>
+                  <div class="row margin-bottom-20">
+                    <div class="col-md-6 col-md-offset-0">
+                      <input name="email" class="form-control" type="text" style="margin-left:70px" required="True">
+                    </div>
+                  </div>                                        
+                </td>
+              </tr>
+            </table>
+
+            <label>{% trans 'Complaint Type' %}
+              <span class="color-red">*</span></label>
+             <table>
+               <tr>
+                 <td><input type="radio" name="radAnswer" required ><label>&nbsp {% trans 'Complaint' %}</label></td>
+                 <td><input type="radio" name="radAnswer" style="margin-left:20px"  required ><label>&nbsp {% trans 'Suggestion' %}</label></td>
+               </tr>
+             </table>
+
+              <label>{% trans 'Message' %}
+                <span class="color-red">*</span></label>
+                <div class="row margin-bottom-20">
+                  <div class="col-md-8 col-md-offset-0">
+                    <textarea name = "message" rows="8" class="form-control" style="border-radius:15px; max-height: 100px; width:100%;" required ></textarea>
+                  </div>
+                </div>
+                <p>
+                  <button type="submit" class="btn btn-primary">{% trans 'Send Message' %}</button>
+                </p>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    <br><br>
+    <section  id="about">
+      <div class="container">
+        <div class="row text-center">
+          <h2 style="color:Green;" class="moment"><strong>{% trans 'Take a Moment' %}</strong> </h2> 
+          <div class="text-center">
+            <div class="col-md-12 col-sm-12 ">
+              <h3><strong class="moment_text" style="color: white;">{% trans 'IMMERSE YOURSELF IN SOME OF THE INSPIRING DESTINATIONS IN ALLAHABAD' %}</strong></h3><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>   
+
+      {% endblock main_content %}
+
+      {% block extra_js %}
+
+        <script type="text/javascript">
+        Tipped.create(".moment",'Take a Moment',{position : 'top'});
+        new TypeIt('.moment_text', {
+        strings: 'This is a simple string.',
+        speed: 200,
+        loop:true,
+        autoStart: false,
+        });
+        </script>
+      {% endblock extra_js %}
+
