@@ -1,0 +1,80 @@
+data.json
+data_new.json
+.*
+*.pyc
+prayag/prayag/media_root
+.Trash*
+*.swo
+*.swp
+hohos/db.sqlite3
+prayag/prayag/sensitive.py
+mission_ajax
+.travis.yml
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+.vscode/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.pytest_cache/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+.DS_Store
+*.sqlite3
+media/
+
+.env
+
+venv_bootcamp/
+staticfiles
+.idea
+
