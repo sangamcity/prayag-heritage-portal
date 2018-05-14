@@ -1,12 +1,13 @@
 data.json
 data_new.json
+.*
 *.pyc
-hohos/hohos/media_root
+prayag/prayag/media_root
 .Trash*
 *.swo
 *.swp
 hohos/db.sqlite3
-hohos/hohos/sensitive.py
+prayag/prayag/sensitive.py
 mission_ajax
 .travis.yml
 
