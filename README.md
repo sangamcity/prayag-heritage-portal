@@ -7,3 +7,9 @@ Requirements?
    Django 1.11.7  
    netifaces   (For Ip handling) 
    unipath    (for path handeling) 
+
+
+
+Deploy on Heroku - 
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
