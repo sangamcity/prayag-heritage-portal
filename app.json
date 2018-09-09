@@ -1,0 +1,19 @@
+{
+  "name": "ContriHUB",
+  "description": "Open Source - Solve Issues and become the Winner",
+  "repository": "https://github.com/sangamcity/prayag-heritage-portal",
+  "keywords": ["Prayag Heritage Portal", "Prayag" ,"sanga,", "MNNIT", "Allahabad"],
+  "success_url":"/",
+  "env":{
+    "DISABLE_COLLECTSTATIC":"1", 
+    "SECRET_KEY": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+  },
+  "addons":[
+    {
+	    "plan":"heroku-postgresql"
+    }
+  ], 
+}
