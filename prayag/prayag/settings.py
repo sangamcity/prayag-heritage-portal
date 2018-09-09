@@ -1,8 +1,6 @@
 # Build paths inside the project like this: os.path.join(PROJECT_DIR, ...)
 import os 
 from unipath import Path
-EMAIL_PASS = 'sooraj#212'
-DB_PASS = 'kali@161ss'
  
 # PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PROJECT_DIR = Path(__file__).parent
