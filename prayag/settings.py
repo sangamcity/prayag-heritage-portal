@@ -171,7 +171,7 @@ LOCALE_PATHS = (BASE_DIR.child('locale'), )
 STATIC_URL = '/static/'
 
 
-STATIC_ROOT = BASE_DIR.child('prayag','static_root')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_files')
 # static_root is the server outside our project wher e static files are sent to store
 
 STATICFILES_DIRS = (
@@ -180,7 +180,7 @@ STATICFILES_DIRS = (
     )
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR.child('prayag','media_root')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media_files')
 
 #Crispy forms tags settings
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
