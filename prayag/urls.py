@@ -30,15 +30,20 @@ from TourismPlaces.views import (
         )
 
 from Users.views import (
+        login,
         signup,profile, change_password, feedback, post_review,
     )
 
-# from django.contrib.auth.views import ( 
-#     password_reset,
-#     password_reset_done, 
-#     password_reset_confirm,    
-#     password_reset_complete,     
-#     )   
+from django.contrib.auth.views import ( 
+    # password_reset,
+    # password_reset_done, 
+    # password_reset_confirm,    
+    # password_reset_complete,    
+
+    PasswordChangeView, PasswordChangeDoneView, 
+    PasswordResetView, PasswordResetDoneView, 
+    PasswordResetConfirmView, PasswordResetCompleteView,
+    )   
 
 urlpatterns = [
     url(r'^$', home, name='home'),
@@ -65,15 +70,16 @@ urlpatterns = [
     
     #registration
     url(r'^signup/', signup, name='signup'),
-    url(r'^login', auth_views.LoginView.as_view(), {'template_name': 'login.html'}, name='login'),   
+    # url(r'^login/', login , name='login'),  {'template_name': 'Users/templates/login.html'}
+    url(r'^login', auth_views.LoginView.as_view(), name='login'),   
     url(r'^logout', auth_views.LogoutView.as_view(), {'next_page': '/'}, name='logout'),
 
-    # url(r'^passwordreset/$', password_reset, name='password_reset'),
-    # url(r'^passwordreset/done/$', password_reset_done, name='password_reset_done'),
-    # url(r'^reset/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$',
-    #             password_reset_confirm, name='password_reset_confirm'),
-    # url(r'^reset/done/$', password_reset_complete, name='password_reset_complete'),
-    # url(r'^settings/password/$', change_password, name='change_password'),
+    url(r'^passwordreset/$', PasswordResetView.as_view(), name='password_reset'),
+    url(r'^passwordreset/done/$', PasswordResetDoneView.as_view(), name='password_reset_done'),
+    url(r'^reset/(?P<uidb64>[0-9A-Za-z_\-]+)/(?P<token>[0-9A-Za-z]{1,13}-[0-9A-Za-z]{1,20})/$',
+                PasswordResetConfirmView.as_view(), name='password_reset_confirm'),
+    url(r'^reset/done/$', PasswordResetCompleteView.as_view(), name='password_reset_complete'),
+    url(r'^settings/password/$', PasswordChangeDoneView.as_view(), name='change_password'),
 
     url(r'^profile/$', profile, name='profile'),
     url(r'^search/$', search, name='search'),

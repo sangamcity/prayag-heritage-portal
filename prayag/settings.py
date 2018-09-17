@@ -25,7 +25,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # GITHUB_SECRET_KEY = config('GITHUB_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 # ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
