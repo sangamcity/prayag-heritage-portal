@@ -4,9 +4,10 @@ Prayag Heritage Portal presents the major attractions in Prayag. There are some 
 
 Requirements?
 
-   Django 1.11.7  
+   Django >=2
    netifaces   (For Ip handling) 
    unipath    (for path handeling) 
+   see requirements.txt
 
 
 
