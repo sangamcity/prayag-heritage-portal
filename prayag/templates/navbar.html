@@ -202,9 +202,9 @@ input { background-color: white; }
               <span class="fa-font">{% trans request.user.first_name %}</span>
             </a>
             <ul>
-              <li>
-                <a href="{% url 'change_password' %}">{% trans 'Change Password' %}</a>
-              </li>
+              <!--<li>
+                <a href="{# url 'change_password' #}">{% trans 'Change Password' %}</a>
+              </li> -->
               <li>
                 <a href="{% url 'logout' %}">{% trans 'Logout' %}</a>
               </li>                                            
