@@ -63,7 +63,7 @@ def UniqueEmailValidator(value):
 
 class SignUpForm(forms.ModelForm):
     username = forms.CharField(
-        widget=forms.TextInput(attrs={'class': 'form-control input-width', 'placeholder':'Phone or Email'}),
+        widget=forms.TextInput(attrs={'class': 'form-control input-width', 'placeholder':'Email'}),
         label='',
         max_length=30,
         required=True,
