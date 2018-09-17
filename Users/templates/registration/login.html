@@ -1,0 +1,106 @@
+{% extends "prayag/base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+
+
+
+{% block main_content %}
+
+<br><br>
+
+<div id="content">
+  <div class="background-white">
+    <!-- Register Box -->
+    <div class="col-md-8 col-md-offset-2 col-sm-offset-3">
+
+     {% if form.field_errors %}
+     {% for error in form.non_field_errors %}
+     <div class="alert alert-danger alert-dismissable" align="center">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      {% trans "Please enter a correct Contact no. and password. Note that password may be case-sensitive." %}
+    </div>
+    {% endfor %} 
+    {% endif %}
+    <div align="center">
+
+      {% if form.non_field_errors %}
+      {% for error in form.non_field_errors %}
+      <div class="alert alert-danger alert-dismissable center">
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        {% trans "Please enter a correct Contact no. and password. Note that password may be case-sensitive." %}
+      </div>
+      {% endfor %} 
+      {% endif %}
+      <form class="login-page" method="post" action="login">
+        {% csrf_token %}
+        <div class="login-header margin-bottom-30">
+          <h2>{% trans "Login to your account" %}</h2>
+        </div>
+        <div class="input-group margin-bottom-20">
+          <span class="input-group-addon">
+            <i class="fa fa-user"></i>
+          </span>
+          <input placeholder="Email/Phone" name="username" class="form-control" type="text">
+          {% for error in form.username.errors %}
+          <label class="control-label"><span class="red">{% trans "error" %}</span></label>
+          {% endfor %}
+        </div>
+
+        <div class="input-group margin-bottom-20">
+          <span class="input-group-addon">
+            <i class="fa fa-lock"></i>
+          </span>
+          <input placeholder="Password" class="form-control" name="password" type="password">
+          {% for error in form.password.errors %}
+          <label class="control-label"><span class="red">{% trans "error" %}</span></label>
+          {% endfor %}
+        </div>
+
+        <div class="form-group">
+          <div class="col-md-4" style="margin-bottom:7px;">
+            <button class="btn btn-success" type="submit" style="width: 100px;">{% trans "Login" %}</button>
+          </div>
+          <br>{% trans "Forgot Password ?" %}<br>
+          <div class="col-md-4 " style="margin-bottom: 50px;">
+            <button class="btn btn-warning"style="width: 150px;"><a href="{% url 'password_reset' %}">{% trans "Reset Password" %}</a></button>
+          </div>          
+        </div>
+
+        <br>
+      </form>
+    </div>
+  </div>
+  <!-- End Register Box -->
+</div>
+</div>
+</div>
+
+<section  id="about">
+  <div class="container">
+    <div class="row text-center">
+      <h2 style="color:Green;" class="moment"><strong>{% trans "Take a Moment" %}</strong> </h2> 
+      <div class="text-center">
+        <div class="col-md-12 col-sm-12 ">
+          <h3 style="color:white; font-size: 20px;" class="moment_text"><strong>'IMMERSE YOURSELF IN SOME OF THE INSPIRING DESTINATIONS IN ALLAHABAD'</strong></h3><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>   
+
+{% endblock main_content %}
+
+
+{% block extra_js %}
+
+<script type="text/javascript">
+Tipped.create(".moment",'Take a Moment',{position : 'top'});
+new TypeIt('.moment_text', {
+  strings: 'This is a simple string.',
+  speed: 100,
+  loop:true,
+  autoStart: false,
+});
+</script>
+
+{% endblock extra_js %}

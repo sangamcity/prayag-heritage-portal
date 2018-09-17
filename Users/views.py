@@ -12,6 +12,10 @@ from TourismPlaces.models import TourismPlace, Review
 #   return render(request, 'signup.html', {})
 
 
+# def login(request):
+#     if not request.user.is_authenticated:
+#         return render(request, 'login.html', {})
+#     else: return redirect('home')
 
 @login_required 
 def profile(request):
@@ -72,7 +76,7 @@ def signup(request):
 
 
 def login_cancelled(request):
-    return redirect('signin')
+    return redirect('enter')
 
 # @login_required 
 # def settings(request):
