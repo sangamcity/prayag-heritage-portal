@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['*']
 
 
 ADMINS = (
-        ('Deepak Bharti','deepakbharti823@gmail.com'),
+        ('Deepak Bharti','deepakbharti@mnnit.ac.in'),
         )
 
 
