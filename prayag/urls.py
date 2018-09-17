@@ -18,6 +18,8 @@ from django.contrib import admin
 from django.contrib.auth import views as auth_views
 from django.conf.urls.static import static    
 from django.conf import settings
+from django.views.static import serve
+
 from TourismPlaces.views import (
 		home, results, layout, weather_results,   
         weather_layout, contact, about, acknowledge,
@@ -96,6 +98,8 @@ urlpatterns = [
    
     url(r'^i18n/', include(('django.conf.urls.i18n','i18n'))),
     # url(r'^translate/', include('rosetta.urls'))
+    url(r'^media/(?P<path>.*)$', serve,{'document_root': settings.MEDIA_ROOT}),
+    url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
 
 ]
 
