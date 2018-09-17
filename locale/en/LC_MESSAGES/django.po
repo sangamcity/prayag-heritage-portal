@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-27 20:25+0000\n"
+"POT-Creation-Date: 2018-09-17 07:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -136,7 +136,7 @@ msgstr ""
 
 #: TourismPlaces/templates/explore/explore_place.html:16
 #, python-format
-msgid " Explore %(place_type)s in Allahabad "
+msgid " Explore %(place_type)s places in Allahabad "
 msgstr ""
 
 #: TourismPlaces/templates/explore/explore_place.html:21
@@ -203,38 +203,34 @@ msgstr ""
 
 #: TourismPlaces/templates/place_detail.html:141
 #, python-format
-msgid " See What People say about %(place.name)s "
+msgid " See What People say about %(name)s "
 msgstr ""
 
 #: TourismPlaces/templates/place_detail.html:159
 msgid "Share Your Experience If you visited this place ..."
 msgstr ""
 
-#: TourismPlaces/templates/place_detail.html:169
+#: TourismPlaces/templates/place_detail.html:170
 msgid "Submit Review"
 msgstr ""
 
 #: TourismPlaces/templates/place_detail.html:186
+msgid "TAKE A MOMENT"
+msgstr ""
+
+#: TourismPlaces/templates/place_detail.html:190
 #, python-format
-msgid " View more images of %(place.name)s "
+msgid " View more images of %(name)s "
 msgstr ""
 
-#: TourismPlaces/templates/place_detail.html:187
+#: TourismPlaces/templates/place_detail.html:191
 #, python-format
-msgid " View more Videos of %(place.name)s "
+msgid " View more Videos of %(name)s "
 msgstr ""
 
-#: TourismPlaces/templates/place_detail.html:194
+#: TourismPlaces/templates/place_detail.html:198
 #, python-format
-msgid " You are at %(place.name)s "
-msgstr ""
-
-#: TourismPlaces/templates/temp_display.html:5
-msgid "Current Temperature"
-msgstr ""
-
-#: TourismPlaces/templates/temp_display.html:7
-msgid "The current temperature (F) is : {{ temp }} degrees."
+msgid " You are at %(name)s"
 msgstr ""
 
 #: TourismPlaces/templates/temp_events/magh_fair.html:6
@@ -262,32 +258,37 @@ msgid "Save"
 msgstr ""
 
 #: Users/templates/login.html:20 Users/templates/login.html:30
+#: Users/templates/registration/login.html:20
+#: Users/templates/registration/login.html:30
 msgid ""
 "Please enter a correct Contact no. and password. Note that password may be "
 "case-sensitive."
 msgstr ""
 
-#: Users/templates/login.html:37
+#: Users/templates/login.html:37 Users/templates/registration/login.html:37
 msgid "Login to your account"
 msgstr ""
 
 #: Users/templates/login.html:45 Users/templates/login.html:55
+#: Users/templates/registration/login.html:45
+#: Users/templates/registration/login.html:55
 msgid "error"
 msgstr ""
 
-#: Users/templates/login.html:61
+#: Users/templates/login.html:61 Users/templates/registration/login.html:61
 msgid "Login"
 msgstr ""
 
-#: Users/templates/login.html:63
+#: Users/templates/login.html:63 Users/templates/registration/login.html:63
 msgid "Forgot Password ?"
 msgstr ""
 
-#: Users/templates/login.html:65
+#: Users/templates/login.html:65 Users/templates/registration/login.html:65
 msgid "Reset Password"
 msgstr ""
 
-#: Users/templates/login.html:81 Users/templates/signup.html:63
+#: Users/templates/login.html:81 Users/templates/registration/login.html:81
+#: Users/templates/signup.html:63
 msgid "Take a Moment"
 msgstr ""
 
