@@ -28,7 +28,7 @@
       {% for message in messages %}
       <div class="alert alert-success alert-dismissable">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-        {% trans message %} 
+         {{message}} 
       </div>
       {% endfor %}
       {% endif %}
@@ -165,9 +165,13 @@
                 <div class="form-group">
                   <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Write your review" style="max-height: 100px; max-height:300px;"></textarea>
                 </div>
+                {% if request.user.is_authenticated %}
                 <div class="form-group">
                   <button type="submit" class="btn btn-primary">{% trans 'Submit Review' %}</button>
                 </div>
+                {% else %}
+                <span> <a href="{% url 'login' %}"> Login </a>to review this place. </span>
+                {% endif %}
           </form>
         </div>
       </div>
