@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse, HttpResponseBadRequest
 import json
 import requests  
-import datetime
+import datetime 
 
 
 temp_f = ""
@@ -20,7 +20,8 @@ def home(request):
 	page_quote = page_quote.upper()
 	page_user = request.user    
 	tourism_places = TourismPlace.objects.all().filter(place_type__contains='front')[:4]  
-	#images = Image.objects.all()s
+	print(len(tourism_places))
+	#images = Image.objects.all()
 	return render(request, 'prayag/home.html', {  
 			'tourism_places': tourism_places, 
 			'page_user': page_user,
