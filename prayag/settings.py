@@ -188,7 +188,7 @@ LOCALE_PATHS = (BASE_DIR.child('locale'), )
 STATIC_URL = '/static/'
 
 
-STATIC_ROOT = BASE_DIR.child('prayag','static_root')
+STATIC_ROOT = BASE_DIR.child('static_root')
 # static_root is the server outside our project wher e static files are sent to store
 
 STATICFILES_DIRS = (
