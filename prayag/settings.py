@@ -25,10 +25,15 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # GITHUB_SECRET_KEY = config('GITHUB_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 # ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+
+
+ADMINS = (
+        ('Deepak Bharti','deepakbharti@mnnit.ac.in'),
+        )
 
 
 # Application definition
@@ -55,7 +60,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'django.contrib.sites',
+    
     #modules installed
     'crispy_forms',
     'rosetta',
@@ -90,6 +96,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+                'django.template.context_processors.i18n',
             ],
         },
     },
@@ -157,10 +165,19 @@ USE_L10N = True
 
 USE_TZ = True
 
+ugettext = lambda s: s
+
 LANGUAGES = (
-    ('en', 'English'),
-    ('hi', 'Hindi'),
+    ('en', ugettext('English')),
+    ('hi', ugettext('Hindi')),
 )
+
+# LANGUAGES = (
+#     ('en', ugettext('English')),
+#     ('es', ugettext('Spanish')),
+#     ('fr', ugettext('French')),
+# )
+
 
 LOCALE_PATHS = (BASE_DIR.child('locale'), )
 
@@ -180,14 +197,14 @@ STATICFILES_DIRS = (
     )
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR.child('prayag','media_root')
+MEDIA_ROOT = BASE_DIR.child('media_root')
 
 #Crispy forms tags settings
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 
 SITE_ID = 1
-# added on 15_jan
+
 LOGIN_URL = '/'
 LOGIN_REDIRECT_URL = '/'
  
@@ -214,3 +231,5 @@ def ip_addresses():
 
 # Discover our IP address
 ALLOWED_HOSTS += ip_addresses()
+
+ROSETTA_GOOGLE_TRANSLATE = True
